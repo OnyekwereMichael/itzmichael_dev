@@ -66,8 +66,6 @@
 
 // export default HeroExperience
 
-
-import { useRef } from 'react'
 import { Canvas, useLoader } from '@react-three/fiber'
 import * as THREE from 'three'
 import { useMediaQuery } from 'react-responsive'
@@ -112,7 +110,7 @@ const HeroExperience = () => {
       <directionalLight position={[0, 0, -5]} intensity={1} color="#4cc9f0" />
       <pointLight position={[0, 1.5, -3]} intensity={1.2} color="#7209b7" />
 
-      {/* Particles and Main Hero */}
+
       <Particles count={120} />
       <HeroLights />
       <RotatingImage isMobile={isMobile} />
