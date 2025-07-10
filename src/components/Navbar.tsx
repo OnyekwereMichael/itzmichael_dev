@@ -2,7 +2,7 @@ import { navLinks } from "../constants";
 
 const NavBar = () => {
   return (
-     <header className="navbar bg-[#0f0f0f]/90 backdrop-blur-md shadow-2xl fixed w-full left-1/2 -translate-x-1/2 z-[100] py-5 px-5 md:px-20">
+     <header className="navbar bg-[#1D1C2291] backdrop-blur-md shadow-2xl fixed w-full left-1/2 -translate-x-1/2 z-[100] py-5 px-5 md:px-20">
       <div className="inner">
         <a href="#hero" className="logo">
          ItzMichael_Dev

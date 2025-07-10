@@ -1,6 +1,7 @@
 import bg from '../assets/public/images/bg.png'
+import AnimatedCounter from '../components/AnimatedCounter'
 import Button from '../components/Buttons'
-import HeroExperience from '../components/HeroModels/HeroExperience'
+import HeroImg from '../components/HeroModels/HeroImg'
 import { words } from '../constants'
 import { useGSAP } from '@gsap/react'
 import { gsap } from 'gsap'
@@ -16,9 +17,9 @@ const Hero = () => {
       </div>
 
       <div className='hero-layout'>
-        <header className="flex flex-col justify-center md:w-full w-screen md:px-10 px-5">
+        <header className="flex flex-col justify-center md:w-full w-screen md:px-7 px-5">
           <div className="flex flex-col gap-7">
-            <div className="hero-text">
+            <div className="hero-text  ">
               <h1>
                 Shaping
                 <span className="slide">
@@ -57,12 +58,16 @@ const Hero = () => {
         </header>
 
            {/* RIGHT: 3D Model or Visual */}
-        <figure>
-          <div className="hero-3d-layout">
-            <HeroExperience />
+        {/* <figure>
+          <div className="hero-3d-layout max-sm:mt-28 ">
+            <HeroImg />
           </div>
-        </figure>
+        </figure> */}
+
+        <img src={'/src/assets/public/images/Michaell.jpg'} alt="profilepic" className="hero-3d-layout max-sm:mt-28 " />
+
       </div>
+        <AnimatedCounter />
     </section>
   )
 }
