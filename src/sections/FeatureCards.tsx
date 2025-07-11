@@ -1,8 +1,10 @@
 import { abilities } from "../constants";
+import TitleHeader from "./TitleHeader";
 
 const FeatureCards = () => (
   <div className="w-full p-6">
-    <div className="mx-auto grid-3-cols">
+        <TitleHeader title="" sub="💼 My Tech Stack" />
+    <div className="mx-auto grid-3-cols py-10">
       {abilities.map(({ imgPath, title, desc }) => (
         <div
           key={title}

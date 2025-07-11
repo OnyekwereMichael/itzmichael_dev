@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-container">
-        <div className="flex flex-row items-center gap-2">
+        <div className="flex flex-row items-center gap-2 max-sm:hidden">
           <div className="p-3  border border-black-50 bg-black-100 flex justify-center items-center rounded-xl size-10 md:size-12 cursor-pointer transition-all duration-500 hover:bg-black-50 shadow w-12 h-12 ">
             <FaGavel className="text-gray-600" />
             </div>

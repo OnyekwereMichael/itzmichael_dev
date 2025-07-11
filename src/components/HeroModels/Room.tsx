@@ -10,7 +10,7 @@ import { BlendFunction } from "postprocessing";
 import * as THREE from "three";
 
 interface RoomProps {
-  [key: string]: any
+  [key: string]: unknown;
 }
 export function Room(props: RoomProps) {
   const { nodes, materials } = useGLTF("/models/optimized-room.glb") as unknown as {

@@ -99,7 +99,7 @@ section {
   }
 
   .hero-3d-layout {
-    @apply xl:w-[100%] w-full h-[100%] min-h-[20vh] absolute xl:top-0 top-24 right-0;
+    @apply xl:w-[100%] w-full h-[100%] min-h-[80vh] absolute xl:top-0 top-24 right-0;
   }
 
 .navbar {
@@ -146,7 +146,7 @@ section {
   }
 
   .app-showcase {
-    @apply w-full mt-20 px-5 md:px-7 py-10 md:py-20 flex items-center justify-center;
+    @apply w-full mt-10 px-5 md:px-7 py-10 md:py-20 flex items-center justify-center max-sm:mt-0;
 
     .showcaselayout {
       @apply flex xl:flex-row flex-col gap-10 justify-between;
@@ -156,10 +156,11 @@ section {
       @apply h-full flex flex-col justify-between xl:w-[60%];
 
       .image-wrapper {
-        @apply xl:h-[70vh] md:h-[50vh] h-96 relative;
+        @apply xl:h-[70vh] md:h-[50vh] h-96 relative bg-contain;
 
         img {
-          @apply w-full h-full object-cover rounded-xl absolute inset-0;
+          @apply w-full h-full object-contain rounded-xl;
+          position: static;
         }
       }
 
@@ -185,6 +186,7 @@ section {
 
       img {
         @apply w-full h-full object-contain rounded-xl;
+        position: static;
       }
 
       h2 {
@@ -460,4 +462,19 @@ section {
 
 .card:hover::before {
   opacity: 1;
+}
+
+@keyframes spin-slow {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+@keyframes spin-slow-reverse {
+  0% { transform: rotate(360deg); }
+  100% { transform: rotate(0deg); }
+}
+.animate-spin-slow {
+  animation: spin-slow 2.5s linear infinite;
+}
+.animate-spin-slow-reverse {
+  animation: spin-slow-reverse 3s linear infinite;
 }

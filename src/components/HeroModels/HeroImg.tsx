@@ -72,33 +72,33 @@ import { useMediaQuery } from 'react-responsive'
 import Particles from './Particle'
 import HeroLights from './HeroLights'
 
-const RotatingImage = ({ isMobile }: { isMobile: boolean }) => {
-  const texture = useLoader(THREE.TextureLoader, '/src/assets/public/images/Michaell.jpg')
-  texture.anisotropy = 16
-  texture.minFilter = THREE.LinearFilter
-  texture.magFilter = THREE.LinearFilter
+// const RotatingImage = ({ isMobile }: { isMobile: boolean }) => {
+//   const texture = useLoader(THREE.TextureLoader, '/src/assets/public/images/Michaell.jpg')
+//   texture.anisotropy = 16
+//   texture.minFilter = THREE.LinearFilter
+//   texture.magFilter = THREE.LinearFilter
 
-  return (
-    <group position={[0, -1.5, 0]}>
-      {/* BACK Glow Plane */}
-      {/* <mesh position={[0, 0, -0.2]} scale={isMobile ? [4, 4, 1] : [7, 7, 1]}>
-        <planeGeometry args={[2.8, 2.8]} />
-        <meshBasicMaterial color="#4cc9f0" transparent opacity={0.06} />
-      </mesh> */}
+//   return (
+//     <group position={[0, -1.5, 0]}>
+//       {/* BACK Glow Plane */}
+//       {/* <mesh position={[0, 0, -0.2]} scale={isMobile ? [4, 4, 1] : [7, 7, 1]}>
+//         <planeGeometry args={[2.8, 2.8]} />
+//         <meshBasicMaterial color="#4cc9f0" transparent opacity={0.06} />
+//       </mesh> */}
 
-      {/* Main Profile Image as Box */}
-      <mesh scale={isMobile ? [7, 4, 0.2] : [9, 6, 7.5]}>
-        <boxGeometry args={[1.5, 2, 0.05]} />
-        <meshStandardMaterial
-          map={texture}
-          roughness={0.25}
-          metalness={0.1}
-        />
-      </mesh>
+//       {/* Main Profile Image as Box */}
+//       <mesh scale={isMobile ? [7, 4, 0.2] : [9, 6, 7.5]}>
+//         <boxGeometry args={[1.5, 2, 0.05]} />
+//         <meshStandardMaterial
+//           map={texture}
+//           roughness={0.25}
+//           metalness={0.1}
+//         />
+//       </mesh>
 
-    </group>
-  )
-}
+//     </group>
+//   )
+// }
 
 const HeroExperience = () => {
   const isMobile = useMediaQuery({ query: '(max-width: 768px)' })
@@ -112,8 +112,8 @@ const HeroExperience = () => {
 
 
       <Particles count={120} />
-      <HeroLights />
-      <RotatingImage isMobile={isMobile} />
+      {/* <HeroLights />
+      <RotatingImage isMobile={isMobile} /> */}
     </Canvas>
   )
 }

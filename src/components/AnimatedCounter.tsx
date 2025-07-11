@@ -32,19 +32,21 @@ const AnimatedCounter = () => {
         },
         // Add the suffix after counting is complete
         onComplete: () => {
-          numberElement.textContent = `${item.value}${item.suffix}`;
+          if (numberElement) {
+            numberElement.textContent = `${item.value}${item.suffix}`;
+          }
         },
       });
     }, counterRef);
   }, []);
 
   return (
-    <div id="counter" ref={counterRef} className="p-6 xl:mt-0 mt-32 max-sm:mt-56">
+    <div id="counter" ref={counterRef} className="p-6 xl:mt-0 mt-32 max-sm:mt-16">
       <div className="mx-auto grid-4-cols">
         {counterItems.map((item, index) => (
           <div
             key={index}
-            ref={(el) => el && (countersRef.current[index] = el)}
+            ref={el => { if (el) countersRef.current[index] = el; }}
             className="bg-zinc-900 rounded-lg p-10 flex flex-col justify-center"
           >
             <div className="counter-number text-white-50 text-5xl font-bold mb-2">

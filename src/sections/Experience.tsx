@@ -93,7 +93,7 @@ const Experience = () => {
   return (
     <section
       id="experience"
-      className="flex-center md:mt-40 mt-20 section-padding xl:px-0"
+      className="flex-center md:mt-20 mt-20 section-padding xl:px-0 max-sm:px-0"
     >
       <div className="w-full h-full md:px-6 px-5">
         <TitleHeader
@@ -105,7 +105,7 @@ const Experience = () => {
             {expCards.map((card, index) => (
               <div key={card.title} className="exp-card-wrapper">
                 <div className="xl:w-2/6">
-                  <GlowCard card={card}>
+                  <GlowCard card={card} index={index}>
                     <div>
                       <img src={card.imgPath} alt="exp-img" />
                     </div>
@@ -122,7 +122,7 @@ const Experience = () => {
                         <img src={card.logoPath} alt="logo" />
                       </div>
                       <div>
-                        <h1 className="font-semibold text-3xl">{card.title}</h1>
+                        <h1 className="font-semibold text-3xl max-sm:text-2xl">{card.title}</h1>
                         <p className="my-5 text-white-50">
                           🗓️&nbsp;{card.date}
                         </p>

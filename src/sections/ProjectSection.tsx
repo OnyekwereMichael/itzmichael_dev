@@ -3,6 +3,7 @@ import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useGSAP } from "@gsap/react";
 
+
 gsap.registerPlugin(ScrollTrigger);
 
 const ProjectSection = () => {
@@ -46,10 +47,12 @@ const ProjectSection = () => {
   return (
     <div id="work" ref={sectionRef} className="app-showcase">
       <div className="w-full">
-        <div className="showcaselayout">
+        {/* <TitleHeader title="" sub="💼 Projects I've Done" /> */}
+        <div className="showcaselayout max-sm:mt-5 cursor-pointer">
           <div ref={rydeRef} className="first-project-wrapper">
+          <a href='https://auto-brand-craft-lab.vercel.app/banner-creator'>
             <div className="image-wrapper">
-              <img src="/src/assets/public/images/project1.png" alt="Ryde App Interface" />
+              <img src="/src/assets/public/images/auto-brand1.PNG" alt="Ryde App Interface" className=""/>
             </div>
             <div className="text-content">
               <h2 className="leading-12">
@@ -70,9 +73,11 @@ const ProjectSection = () => {
             </div>
 
 
+          </a>
           </div>
 
           <div className="project-list-wrapper overflow-hidden">
+          <a href='https://xclux-ecommerce-8pc8.vercel.app/home'>
             <div className="project" ref={libraryRef}>
               <div className="image-wrapper bg-[#FFEFDB]">
                 <img
@@ -90,7 +95,8 @@ const ProjectSection = () => {
                 <span className="bg-[#2D2D2D] px-3 py-1 rounded-full">TypeScript</span>
               </div>
             </div>
-
+            </a>
+            <a href='https://xclux-ecommerce-8pc8.vercel.app/home'>
             <div className="project" ref={ycDirectoryRef}>
               <div className="image-wrapper bg-[#FFE7EB]">
                 <img src="/src/assets/public/images/project3.png" alt="YC Directory App" />
@@ -104,6 +110,7 @@ const ProjectSection = () => {
                 <span className="bg-[#2D2D2D] px-3 py-1 rounded-full">TypeScript</span>
               </div>
             </div>
+            </a>
           </div>
         </div>
       </div>
