@@ -5,7 +5,6 @@ import gsap from "gsap";
 import { techStackIcons, techStackImgs } from "../constants";
 import TitleHeader from "./TitleHeader";
 import TechIcon from "../components/TechLogos/TechIcon";
-// import { techStackImgs } from "../constants";
 
 const TechStack = () => {
     useGSAP(() => {

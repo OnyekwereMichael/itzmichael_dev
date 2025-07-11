@@ -66,11 +66,9 @@
 
 // export default HeroExperience
 
-import { Canvas, useLoader } from '@react-three/fiber'
-import * as THREE from 'three'
+import { Canvas } from '@react-three/fiber'
 import { useMediaQuery } from 'react-responsive'
 import Particles from './Particle'
-import HeroLights from './HeroLights'
 
 // const RotatingImage = ({ isMobile }: { isMobile: boolean }) => {
 //   const texture = useLoader(THREE.TextureLoader, '/src/assets/public/images/Michaell.jpg')
@@ -101,7 +99,7 @@ import HeroLights from './HeroLights'
 // }
 
 const HeroExperience = () => {
-  const isMobile = useMediaQuery({ query: '(max-width: 768px)' })
+  // const isMobile = useMediaQuery({ query: '(max-width: 768px)' })
 
   return (
     <Canvas camera={{ position: [0, 0, 12], fov: 50 }}>

@@ -2,25 +2,6 @@ import { useRef } from 'react'
 import { Canvas, useFrame } from '@react-three/fiber'
 import * as THREE from 'three'
 
-// Simple test cube
-const TestCube = () => {
-  const meshRef = useRef<THREE.Mesh>(null)
-  
-  useFrame((state) => {
-    if (meshRef.current) {
-      meshRef.current.rotation.y += 0.01
-      meshRef.current.position.y = Math.sin(state.clock.elapsedTime) * 0.5
-    }
-  })
-
-  return (
-    <mesh ref={meshRef} position={[0, 0, 0]}>
-      <boxGeometry args={[1, 1, 1]} />
-      <meshStandardMaterial color="#61dafb" />
-    </mesh>
-  )
-}
-
 // Main floating objects component
 const FloatingTechObjects = () => {
   return (

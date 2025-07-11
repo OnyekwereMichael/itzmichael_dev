@@ -1,7 +1,6 @@
 import bg from '../assets/public/images/bg.png'
 import AnimatedCounter from '../components/AnimatedCounter'
 import Button from '../components/Buttons'
-import HeroImg from '../components/HeroModels/HeroImg'
 import { words } from '../constants'
 import { useGSAP } from '@gsap/react'
 import { gsap } from 'gsap'
