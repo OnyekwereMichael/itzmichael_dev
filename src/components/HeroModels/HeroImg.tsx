@@ -67,7 +67,6 @@
 // export default HeroExperience
 
 import { Canvas } from '@react-three/fiber'
-import { useMediaQuery } from 'react-responsive'
 import Particles from './Particle'
 
 // const RotatingImage = ({ isMobile }: { isMobile: boolean }) => {
