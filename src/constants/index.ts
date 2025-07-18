@@ -1,3 +1,45 @@
+import ideasImg from '/src/assets/public/images/ideas.svg';
+import conceptsImg from '/src/assets/public/images/concepts.svg';
+import designsImg from '/src/assets/public/images/designs.svg';
+import codeImg from '/src/assets/public/images/code.svg';
+
+import companyLogo1 from '/src/assets/public/images/logos/company-logo-1.png';
+import companyLogo2 from '/src/assets/public/images/logos/company-logo-2.png';
+import companyLogo3 from '/src/assets/public/images/logos/company-logo-3.png';
+import companyLogo4 from '/src/assets/public/images/logos/company-logo-4.png';
+import companyLogo5 from '/src/assets/public/images/logos/company-logo-5.png';
+import companyLogo6 from '/src/assets/public/images/logos/company-logo-6.png';
+import companyLogo7 from '/src/assets/public/images/logos/company-logo-7.png';
+import companyLogo8 from '/src/assets/public/images/logos/company-logo-8.png';
+
+import seoImg from '/src/assets/public/images/seo.png';
+import chatImg from '/src/assets/public/images/chat.png';
+import timeImg from '/src/assets/public/images/time.png';
+
+import exp1Img from '/src/assets/public/images/exp1.png';
+import exp2Img from '/src/assets/public/images/exp2.png';
+import exp3Img from '/src/assets/public/images/exp3.png';
+
+import logo1Img from '/src/assets/public/images/logo1.png';
+import logo2Img from '/src/assets/public/images/logo2.png';
+import logo3Img from '/src/assets/public/images/logo3.png';
+
+import client1 from '/src/assets/public/images/client1.png';
+import client2 from '/src/assets/public/images/client2.png';
+import client3 from '/src/assets/public/images/client3.png';
+import client4 from '/src/assets/public/images/client4.png';
+import client5 from '/src/assets/public/images/client5.png';
+import client6 from '/src/assets/public/images/client6.png';
+
+import instaImg from '/src/assets/public/images/insta.png';
+import fbImg from '/src/assets/public/images/fb.png';
+import xImg from '/src/assets/public/images/x.png';
+import linkedinImg from '/src/assets/public/images/linkedin.png';
+
+
+
+
+
 const navLinks = [
   {
     name: "Work",
@@ -17,15 +59,15 @@ const navLinks = [
   },
 ];
 
- const words = [
-  { text: "Ideas", imgPath: "/src/assets/public/images/ideas.svg" },
-  { text: "Thoughts", imgPath: "/src/assets/public/images/concepts.svg" },
-  { text: "Designs", imgPath: "/src/assets/public/images/designs.svg" },
-  { text: "Code", imgPath: "/src/assets/public/images/code.svg" },
-  { text: "Ideas", imgPath: "/src/assets/public/images/ideas.svg" },
-  { text: "Concepts", imgPath: "/src/assets/public/images/concepts.svg" },
-  { text: "Designs", imgPath: "/src/assets/public/images/designs.svg" },
-  { text: "Code", imgPath: "/src/assets/public/images/code.svg" },
+const words = [
+  { text: "Ideas", imgPath: ideasImg },
+  { text: "Thoughts", imgPath: conceptsImg },
+  { text: "Designs", imgPath: designsImg },
+  { text: "Code", imgPath: codeImg },
+  { text: "Ideas", imgPath: ideasImg },
+  { text: "Concepts", imgPath: conceptsImg },
+  { text: "Designs", imgPath: designsImg },
+  { text: "Code", imgPath: codeImg },
 ];
 
 const counterItems = [
@@ -36,52 +78,41 @@ const counterItems = [
 ];
 
 const logoIconsList = [
-  {
-    imgPath: "https://raw.githubusercontent.com/remojansen/logo.ts/master/ts.png",
-  },
-  {
-    imgPath: "https://www.mongodb.com/assets/images/global/leaf.png",
-  },
-  {
-    imgPath: "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg",
-  },
-  {
-    imgPath: "https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg",
-  },
-   {
-    imgPath: "https://upload.wikimedia.org/wikipedia/commons/9/95/Vue.js_Logo_2.svg",
-  },
-  {
-    imgPath: "https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png",
-  },
-  {
-    imgPath: "/src/assets/public/images/logos/company-logo-8.png",
-  },
-  {
-    imgPath: "https://raw.githubusercontent.com/remojansen/logo.ts/master/ts.png",
-  },
-  {
-    imgPath: "https://www.mongodb.com/assets/images/global/leaf.png",
-  },
+  { imgPath: "https://raw.githubusercontent.com/remojansen/logo.ts/master/ts.png" },
+  { imgPath: "https://www.mongodb.com/assets/images/global/leaf.png" },
+  { imgPath: "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" },
+  { imgPath: "https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg" },
+  { imgPath: "https://upload.wikimedia.org/wikipedia/commons/9/95/Vue.js_Logo_2.svg" },
+  { imgPath: "https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png" },
+  { imgPath: companyLogo1 },
+  { imgPath: companyLogo2 },
+  { imgPath: companyLogo3 },
+  { imgPath: companyLogo4 },
+  { imgPath: companyLogo5 },
+  { imgPath: companyLogo6 },
+  { imgPath: companyLogo7 },
+  { imgPath: companyLogo8 },
 ];
+
 
 const abilities = [
   {
-    imgPath: "/src/assets/public/images/seo.png",
+    imgPath: seoImg,
     title: "Quality Focus",
     desc: "Delivering high-quality results while maintaining attention to every detail.",
   },
   {
-    imgPath: "/src/assets/public/images/chat.png",
+    imgPath: chatImg,
     title: "Reliable Communication",
     desc: "Keeping you updated at every step to ensure transparency and clarity.",
   },
   {
-    imgPath: "/src/assets/public/images/time.png",
+    imgPath: timeImg,
     title: "On-Time Delivery",
     desc: "Making sure projects are completed on schedule, with quality & attention to detail.",
   },
 ];
+
 
 const techStackImgs = [
   {
@@ -142,8 +173,8 @@ const techStackIcons = [
 const expCards = [
   {
     review: "Adrian brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
-    imgPath: "src/assets/public/images/exp1.png",
-    logoPath: "src/assets/public/images/logo1.png",
+    imgPath: exp1Img,
+    logoPath: logo1Img,
     title: "Frontend Developer",
     date: "January 2023 - Present",
     responsibilities: [
@@ -154,8 +185,8 @@ const expCards = [
   },
   {
     review: "Adrian’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
-    imgPath: "src/assets/public/images/exp2.png",
-    logoPath: "src/assets/public/images/logo2.png",
+    imgPath: exp2Img,
+    logoPath: logo2Img,
     title: "Full Stack Developer",
     date: "June 2020 - December 2023",
     responsibilities: [
@@ -166,8 +197,8 @@ const expCards = [
   },
   {
     review: "Adrian’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
-    imgPath: "src/assets/public/images/exp3.png",
-    logoPath: "src/assets/public/images/logo3.png",
+    imgPath: exp3Img,
+    logoPath: logo3Img,
     title: "React Native Developer",
     date: "March 2019 - May 2020",
     responsibilities: [
@@ -178,18 +209,19 @@ const expCards = [
   },
 ];
 
+
 const expLogos = [
   {
     name: "logo1",
-    imgPath: "/images/logo1.png",
+    imgPath: logo1Img,
   },
   {
     name: "logo2",
-    imgPath: "/images/logo2.png",
+    imgPath: logo2Img,
   },
   {
     name: "logo3",
-    imgPath: "/images/logo3.png",
+    imgPath: logo3Img,
   },
 ];
 
@@ -199,63 +231,65 @@ const testimonials = [
     mentions: "@estherhoward",
     review:
       "I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.",
-    imgPath: "/src/assets/public/images/client1.png",
+    imgPath: client1,
   },
   {
     name: "Wade Warren",
     mentions: "@wadewarren",
     review:
       "Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.",
-    imgPath: "/src/assets/public/images/client3.png",
+    imgPath: client3,
   },
   {
     name: "Guy Hawkins",
     mentions: "@guyhawkins",
     review:
       "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    imgPath: "/src/assets/public/images/client2.png",
+    imgPath: client2,
   },
   {
     name: "Marvin McKinney",
     mentions: "@marvinmckinney",
     review:
       "Adrian was a pleasure to work with. He turned our outdated website into a fresh, intuitive platform that’s both modern and easy to navigate. Fantastic work overall.",
-    imgPath: "/src/assets/public/images/client5.png",
+    imgPath: client5,
   },
   {
     name: "Floyd Miles",
     mentions: "@floydmiles",
     review:
       "Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional!",
-    imgPath: "/src/assets/public/images/client4.png",
+    imgPath: client4,
   },
   {
     name: "Albert Flores",
     mentions: "@albertflores",
     review:
       "Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend and backend dev are top-notch.",
-    imgPath: "/src/assets/public/images/client6.png",
+    imgPath: client6,
   },
 ];
+
 
 const socialImgs = [
   {
     name: "insta",
-    imgPath: "/src/assets/public/images/insta.png",
+    imgPath: instaImg,
   },
   {
     name: "fb",
-    imgPath: "/src/assets/public/images/fb.png",
+    imgPath: fbImg,
   },
   {
     name: "x",
-    imgPath: "/src/assets/public/images/x.png",
+    imgPath: xImg,
   },
   {
     name: "linkedin",
-    imgPath: "/src/assets/public/images/linkedin.png",
+    imgPath: linkedinImg,
   },
 ];
+
 
 export {
   words,

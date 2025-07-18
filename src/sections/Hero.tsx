@@ -4,6 +4,7 @@ import Button from '../components/Buttons'
 import { words } from '../constants'
 import { useGSAP } from '@gsap/react'
 import { gsap } from 'gsap'
+import MyImg from '/src/assets/public/images/Michaell.jpg'
 
 
 
@@ -91,7 +92,7 @@ const Hero = () => {
               {/* Profile Image Container */}
               <div className='relative w-full h-full rounded-2xl overflow-hidden shadow-2xl border-4 border-white/10 bg-black/30'>
                 <img 
-                  src={'/src/assets/public/images/Michaell.jpg'} 
+                  src={MyImg} 
                   alt="Michael - Software Developer" 
                   className="w-full h-full object-cover"
                 />

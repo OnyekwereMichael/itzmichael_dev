@@ -10,6 +10,7 @@ import { Toaster } from 'react-hot-toast'
 import Footer from './sections/Footer'
 import Spinner from './components/Spinner';
 import { useState, useEffect } from 'react';
+import favicon from '/src/assets/public/images/Favicon.png'
 
 const App = () => {
   const [loading, setLoading] = useState(true);
@@ -28,7 +29,7 @@ const App = () => {
         </div>
         {/* Loader Content */}
         <div className="relative z-10 flex flex-col items-center mt-10">
-          <img src="/src/assets/public/images/Favicon.png" alt="Logo" className="w-14 h-14 mb-6 " />
+          <img src={favicon} alt="Logo" className="w-14 h-14 mb-6 " />
           {/* <h1 className="text-2xl md:text-3xl font-bold text-white mb-2 animate-fade-in text-center">Welcome to Michael's Portfolio</h1> */}
           <Spinner />
         </div>
