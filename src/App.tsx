@@ -10,7 +10,7 @@ import { Toaster } from 'react-hot-toast'
 import Footer from './sections/Footer'
 import Spinner from './components/Spinner';
 import { useState, useEffect } from 'react';
-import favicon from '/src/assets/public/images/Favicon.png'
+// import favicon from '/src/assets/public/images/Favicon.png'
 
 const App = () => {
   const [loading, setLoading] = useState(true);
