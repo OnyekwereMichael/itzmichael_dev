@@ -36,6 +36,11 @@ import fbImg from '/src/assets/public/images/fb.png';
 import xImg from '/src/assets/public/images/x.png';
 import linkedinImg from '/src/assets/public/images/linkedin.png';
 
+import KainoTech from '/src/assets/public/images/KAINOTech.png'
+import Kaino_k from '/src/assets/public/images/KAINO_K.png'
+import Vendors_app from '/src/assets/public/images/vendors.webp'
+import V from '/src/assets/public/images/v.png'
+
 
 
 
@@ -72,9 +77,9 @@ const words = [
 
 const counterItems = [
   { value: 3, suffix: "+", label: "Years of Experience" },
-  { value: 20, suffix: "+", label: "Satisfied Clients" },
-  { value: 50, suffix: "+", label: "Completed Projects" },
-  { value: 10, suffix: "%", label: "Client Retention Rate" },
+  { value: 10, suffix: "+", label: "Satisfied Clients" },
+  { value: 30, suffix: "+", label: "Completed Projects" },
+  { value: 5, suffix: "%", label: "Client Retention Rate" },
 ];
 
 const logoIconsList = [
@@ -172,11 +177,11 @@ const techStackIcons = [
 
 const expCards = [
   {
-    review: "Adrian brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
-    imgPath: exp1Img,
-    logoPath: logo1Img,
+    review: "I brought creativity and technical expertise to the team, significantly improving our frontend performance. My contributions played a key role in delivering faster, more efficient user experiences.",
+    imgPath: KainoTech,
+    logoPath: Kaino_k,
     title: "Frontend Developer",
-    date: "January 2023 - Present",
+    date: "July 2024 - Present",
     responsibilities: [
       "Developed and maintained user-facing features for the Hostinger website.",
       "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
@@ -184,11 +189,11 @@ const expCards = [
     ],
   },
   {
-    review: "Adrian’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
-    imgPath: exp2Img,
-    logoPath: logo2Img,
+    review: "My contributions to Vendors App were both impactful and strategic. I approached each challenge with a solution-oriented mindset, helping the team move quickly and effectively in a fast-paced environment.",
+    imgPath: Vendors_app,
+    logoPath: V,
     title: "Full Stack Developer",
-    date: "June 2020 - December 2023",
+    date: "September 2024 - Present",
     responsibilities: [
       "Led the development of Docker's web applications, focusing on scalability.",
       "Worked with backend engineers to integrate APIs seamlessly with the frontend.",
@@ -196,15 +201,15 @@ const expCards = [
     ],
   },
   {
-    review: "Adrian’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
+    review: "I work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
     imgPath: exp3Img,
     logoPath: logo3Img,
     title: "React Native Developer",
-    date: "March 2019 - May 2020",
+    date: "March 2025 - Present",
     responsibilities: [
-      "Built cross-platform mobile apps using React Native, integrating with Appwrite's backend services.",
-      "Improved app performance and user experience through code optimization and testing.",
-      "Coordinated with the product team to implement features based on feedback.",
+      "Developed cross-platform mobile applications using React Native, with a strong focus on performance, usability, and maintainability.",
+      "Optimized application performance through thoughtful refactoring, profiling, and testing to enhance the overall user experience.",
+      "Collaborated closely with the product team to translate user feedback into well-implemented, high-impact features",
     ],
   },
 ];

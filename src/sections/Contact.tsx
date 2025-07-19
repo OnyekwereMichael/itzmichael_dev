@@ -57,7 +57,7 @@ const Contact = () => {
         />
         <div className="grid-12-cols mt-16">
           <div className="xl:col-span-6">
-            <div className="flex-center card-border rounded-xl p-10">
+            <div className="flex-center card-border rounded-xl px-10 py-10 max-sm:px-6">
               <form
                 ref={formRef}
                 onSubmit={handleSubmit}

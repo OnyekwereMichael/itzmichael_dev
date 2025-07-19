@@ -2,6 +2,9 @@ import { useRef } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useGSAP } from "@gsap/react";
+import project1 from '../assets/public/images/auto-brand1.png'
+import project2 from '../assets/public/images/project2.png'
+import project3 from '../assets/public/images/project3.png'
 
 
 gsap.registerPlugin(ScrollTrigger);
@@ -52,7 +55,7 @@ const ProjectSection = () => {
           <div ref={rydeRef} className="first-project-wrapper">
           <a href='https://auto-brand-craft-lab.vercel.app/banner-creator'>
             <div className="image-wrapper">
-              <img src="/src/assets/public/images/auto-brand1.PNG" alt="Ryde App Interface" className=""/>
+              <img src={project1} alt="Ryde App Interface" className=""/>
             </div>
             <div className="text-content">
               <h2 className="leading-12">
@@ -81,7 +84,7 @@ const ProjectSection = () => {
             <div className="project" ref={libraryRef}>
               <div className="image-wrapper bg-[#FFEFDB]">
                 <img
-                  src="/src/assets/public/images/project2.png"
+                  src={project2}
                   alt="Library Management Platform"
                 />
               </div>
@@ -99,7 +102,7 @@ const ProjectSection = () => {
             <a href='https://xclux-ecommerce-8pc8.vercel.app/home'>
             <div className="project" ref={ycDirectoryRef}>
               <div className="image-wrapper bg-[#FFE7EB]">
-                <img src="/src/assets/public/images/project3.png" alt="YC Directory App" />
+                <img src={project3} alt="YC Directory App" />
               </div>
               <h2>YC Directory - A Startup Showcase App</h2>
               <div className="flex flex-wrap gap-2 text-sm text-white-50 mt-3">

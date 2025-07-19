@@ -4,6 +4,8 @@
  * with a small offset from the top for better visual placement.
  */
 
+import arrowDown from '/src/assets/public/images/arrow-down.svg'
+
 const Button = ({ text, className, id }: { text: string; className?: string; id?: string }) => {
   return (
     <a
@@ -31,7 +33,7 @@ const Button = ({ text, className, id }: { text: string; className?: string; id?
         <div className="bg-circle" />
         <p className="text">{text}</p>
         <div className="arrow-wrapper">
-          <img src="/src/assets/public/images/arrow-down.svg" alt="arrow" />
+          <img src={arrowDown} alt="arrow" />
         </div>
       </div>
     </a>

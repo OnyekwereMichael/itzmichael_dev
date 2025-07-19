@@ -64,7 +64,7 @@ const GlowCard = ({ card, index, children }: GlowCardProps) => {
         ))}
       </div>
       <div className="mb-5">
-        <p className="text-white-50 text-lg">{card.review}</p>
+        <p className="text-white-50 text-lg max-sm:text-[16px]">{card.review}</p>
       </div>
       {children}
     </div>
