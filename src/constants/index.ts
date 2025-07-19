@@ -16,9 +16,7 @@ import seoImg from '/src/assets/public/images/seo.png';
 import chatImg from '/src/assets/public/images/chat.png';
 import timeImg from '/src/assets/public/images/time.png';
 
-import exp1Img from '/src/assets/public/images/exp1.png';
-import exp2Img from '/src/assets/public/images/exp2.png';
-import exp3Img from '/src/assets/public/images/exp3.png';
+
 
 import logo1Img from '/src/assets/public/images/logo1.png';
 import logo2Img from '/src/assets/public/images/logo2.png';
@@ -40,6 +38,7 @@ import KainoTech from '/src/assets/public/images/KAINOTech.png'
 import Kaino_k from '/src/assets/public/images/KAINO_K.png'
 import Vendors_app from '/src/assets/public/images/vendors.webp'
 import V from '/src/assets/public/images/v.png'
+import Gentori from '/src/assets/public/images/Gentori.png'
 
 
 
@@ -202,8 +201,8 @@ const expCards = [
   },
   {
     review: "I work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
-    imgPath: exp3Img,
-    logoPath: logo3Img,
+    imgPath: Gentori,
+    logoPath: Gentori,
     title: "React Native Developer",
     date: "March 2025 - Present",
     responsibilities: [
