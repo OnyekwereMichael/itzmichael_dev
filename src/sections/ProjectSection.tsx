@@ -2,7 +2,7 @@ import { useRef } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useGSAP } from "@gsap/react";
-import project1 from '../assets/public/images/auto-brand.png'
+import project1 from '../assets/public/images/project2.png'
 import project2 from '/src/assets/public/images/xclux.png'
 import project3 from '../assets/public/images/project3.png'
 
@@ -53,7 +53,7 @@ const ProjectSection = () => {
         {/* <TitleHeader title="" sub="💼 Projects I've Done" /> */}
         <div className="showcaselayout max-sm:mt-5 cursor-pointer">
           <div ref={rydeRef} className="first-project-wrapper">
-          <a href='https://auto-brand-craft-lab.vercel.app/banner-creator'>
+          <a href='https://nexview-pdew.vercel.app/'>
             <div className="image-wrapper">
               <img src={project1} alt="Ryde App Interface" className=""/>
             </div>
