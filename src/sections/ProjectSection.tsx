@@ -2,7 +2,7 @@ import { useRef } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useGSAP } from "@gsap/react";
-import project1 from '../assets/public/images/project2.png'
+import project1 from '../assets/public/images/interview.JPG'
 import project2 from '/src/assets/public/images/xclux.png'
 import project3 from '../assets/public/images/project3.png'
 
