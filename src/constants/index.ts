@@ -37,7 +37,7 @@ import linkedinImg from '/src/assets/public/images/linkedin.png';
 import KainoTech from '/src/assets/public/images/KAINOTech.png'
 import Kaino_k from '/src/assets/public/images/KAINO_K.png'
 import Vendors_app from '/src/assets/public/images/vendors.webp'
-import V from '/src/assets/public/images/v.png'
+// import V from '/src/assets/public/images/v.png'
 import Gentori from '/src/assets/public/images/Gentori.png'
 
 
@@ -190,7 +190,7 @@ const expCards = [
   {
     review: "My contributions to Vendors App were both impactful and strategic. I approached each challenge with a solution-oriented mindset, helping the team move quickly and effectively in a fast-paced environment.",
     imgPath: Vendors_app,
-    logoPath: V,
+    logoPath: Vendors_app,
     title: "Full Stack Developer",
     date: "September 2024 - Present",
     responsibilities: [
@@ -215,6 +215,7 @@ const expCards = [
 
 
 const expLogos = [
+  
   {
     name: "logo1",
     imgPath: logo1Img,

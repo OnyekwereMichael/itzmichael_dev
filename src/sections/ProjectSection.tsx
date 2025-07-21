@@ -99,12 +99,12 @@ const ProjectSection = () => {
               </div>
             </div>
             </a>
-            <a href='https://xclux-ecommerce-8pc8.vercel.app/home'>
+            <a href='https://twit-flash-q7bo.vercel.app/signin'>
             <div className="project" ref={ycDirectoryRef}>
               <div className="image-wrapper bg-[#FFE7EB]">
                 <img src={project3} alt="YC Directory App" />
               </div>
-              <h2>YC Directory - A Startup Showcase App</h2>
+              <h2>Twit Flash - A Fullstack Social Media Application</h2>
               <div className="flex flex-wrap gap-2 text-sm text-white-50 mt-3">
                 <span className="bg-[#2D2D2D] px-3 py-1 rounded-full">React Native</span>
                 <span className="bg-[#2D2D2D] px-3 py-1 rounded-full">Expo</span>
