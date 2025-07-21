@@ -55,7 +55,7 @@ const ProjectSection = () => {
           <div ref={rydeRef} className="first-project-wrapper">
           <a href='https://nexview-pdew.vercel.app/'>
             <div className="image-wrapper">
-              <img src={project1} alt="Ryde App Interface" className=""/>
+              <img src={'/src/assets/public/images/interview.jpg'} alt="Ryde App Interface" className=""/>
             </div>
             <div className="text-content">
               <h2 className="leading-12">
