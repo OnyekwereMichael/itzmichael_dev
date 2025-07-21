@@ -215,6 +215,7 @@ const expCards = [
 
 
 const expLogos = [
+  
   {
     name: "logo1",
     imgPath: logo1Img,
