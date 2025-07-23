@@ -2,7 +2,7 @@ import { useRef } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useGSAP } from "@gsap/react";
-import project1 from '../assets/public/images/interview.JPG'
+import project1 from '../assets/public/images/project3.png'
 import project2 from '/src/assets/public/images/xclux.png'
 import project3 from '../assets/public/images/project3.png'
 
@@ -55,7 +55,7 @@ const ProjectSection = () => {
           <div ref={rydeRef} className="first-project-wrapper">
           <a href='https://nexview-pdew.vercel.app/'>
             <div className="image-wrapper">
-              <img src={'/src/assets/public/images/interview.jpg'} alt="Ryde App Interface" className=""/>
+              <img src={project1} alt="Ryde App Interface" className=""/>
             </div>
             <div className="text-content">
               <h2 className="leading-12">
