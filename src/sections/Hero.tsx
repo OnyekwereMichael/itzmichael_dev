@@ -4,7 +4,7 @@ import Button from '../components/Buttons'
 import { words } from '../constants'
 import { useGSAP } from '@gsap/react'
 import { gsap } from 'gsap'
-import MyImg from '/src/assets/public/images/Michaell.jpg'
+import MyImg from '/src/assets/public/images/myown.jpg'
 
 
 
