@@ -2,9 +2,9 @@ import { useRef } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useGSAP } from "@gsap/react";
-import project1 from '../assets/public/images/project3.png'
+import project1 from '../assets/public/images/ven.PNG'
 import project2 from '/src/assets/public/images/xclux.png'
-import project3 from '../assets/public/images/project3.png'
+import project3 from '../assets/public/images/twit.PNG'
 
 
 gsap.registerPlugin(ScrollTrigger);
@@ -53,13 +53,13 @@ const ProjectSection = () => {
         {/* <TitleHeader title="" sub="💼 Projects I've Done" /> */}
         <div className="showcaselayout max-sm:mt-5 cursor-pointer">
           <div ref={rydeRef} className="first-project-wrapper">
-          <a href='https://nexview-pdew.vercel.app/'>
+          <a href='http://tryvendorsapp.com/'>
             <div className="image-wrapper">
               <img src={project1} alt="Ryde App Interface" className=""/>
             </div>
             <div className="text-content">
               <h2 className="leading-12">
-                Get Intervue-Ready with AI-Powered Practice & Feedback
+                Vendors App, a product built for vendors to manage their business
               </h2>
 
               <div className="flex flex-wrap gap-2 text-sm text-white-50">
@@ -70,7 +70,7 @@ const ProjectSection = () => {
                 <span className="bg-[#2D2D2D] px-3 py-1 rounded-full">TypeScript</span>
               </div>
               <p className="text-white-50 md:text-xl">
-                An app built with React Native, Expo, & TailwindCSS for a fast,
+                An app built with Nextjs, Typescript, and  TailwindCSS for a fast,
                 user-friendly experience.
               </p>
             </div>
@@ -80,15 +80,16 @@ const ProjectSection = () => {
           </div>
 
           <div className="project-list-wrapper overflow-hidden">
-          <a href='https://xclux-ecommerce-8pc8.vercel.app/home'>
+          <a href='https://xclux-ecommerce-8pc8.vercel.app/home' className="rounded-[10px]">
             <div className="project" ref={libraryRef}>
-              <div className="image-wrapper bg-[#FFEFDB]">
+              <div className="image-wrapper bg-[#FFEFDB] rounded-[10px]">
                 <img
                   src={project2}
                   alt="Library Management Platform"
+                  className=""  
                 />
               </div>
-              <h2>A Modern Social Media Application</h2>
+              <h2>A Modern Ecommerce Appliction</h2>
 
               <div className="flex flex-wrap gap-2 text-sm text-white-50 mt-3">
                 <span className="bg-[#2D2D2D] px-3 py-1 rounded-full">React Native</span>
@@ -104,7 +105,7 @@ const ProjectSection = () => {
               <div className="image-wrapper bg-[#FFE7EB]">
                 <img src={project3} alt="YC Directory App" />
               </div>
-              <h2>Twit Flash - A Fullstack Social Media Application</h2>
+              <h2>A Fullstack Social Media Application</h2>
               <div className="flex flex-wrap gap-2 text-sm text-white-50 mt-3">
                 <span className="bg-[#2D2D2D] px-3 py-1 rounded-full">React Native</span>
                 <span className="bg-[#2D2D2D] px-3 py-1 rounded-full">Expo</span>
