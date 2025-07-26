@@ -1,5 +1,5 @@
 import { useRef, useEffect } from "react";
-
+import star from '../assets/public/images/star.png'
 interface GlowCardProps {
   card: { review: string };
   index: number;
@@ -60,7 +60,7 @@ const GlowCard = ({ card, index, children }: GlowCardProps) => {
       <div className="glow"></div>
       <div className="flex items-center gap-1 mb-5">
         {Array.from({ length: 5 }, (_, i) => (
-          <img key={i} src="src/assets/public/images/star.png" alt="star" className="size-5" />
+          <img key={i} src={star} alt="star" className="size-5" />
         ))}
       </div>
       <div className="mb-5">

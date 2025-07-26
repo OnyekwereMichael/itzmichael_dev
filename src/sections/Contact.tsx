@@ -4,6 +4,7 @@ import TitleHeader from "./TitleHeader";
 import ContactDeskImg from "../components/ContactModel/ContactDeskImg";
 import Spinner from "../components/Spinner";
 import toast from "react-hot-toast";
+import arrow_down from '../assets/public/images/arrow-down.svg'
 
 type FormState = {
   name: string;
@@ -111,7 +112,7 @@ const Contact = () => {
                       {loading ? <Spinner /> : "Send Message"}
                     </p>
                     <div className="arrow-wrapper">
-                      <img src="/src/assets/public/images/arrow-down.svg" alt="arrow" />
+                      <img src={arrow_down} alt="arrow" />
                     </div>
                   </div>
                 </button>

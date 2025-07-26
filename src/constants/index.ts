@@ -22,10 +22,10 @@ import logo1Img from '/src/assets/public/images/logo1.png';
 import logo2Img from '/src/assets/public/images/logo2.png';
 import logo3Img from '/src/assets/public/images/logo3.png';
 
-import client1 from '/src/assets/public/images/client1.png';
-import client2 from '/src/assets/public/images/client2.png';
+import client1 from '/src/assets/public/images/promise.jpg';
+import client2 from '/src/assets/public/images/prince.jpg';
 import client3 from '/src/assets/public/images/client3.png';
-import client4 from '/src/assets/public/images/client4.png';
+import client4 from '/src/assets/public/images/bright.jpg';
 import client5 from '/src/assets/public/images/client5.png';
 import client6 from '/src/assets/public/images/client6.png';
 
@@ -121,7 +121,31 @@ const abilities = [
 const techStackImgs = [
   {
     name: "React Developer",
+    imgPath: "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png",
+  },
+  {
+    name: "React Developer",
     imgPath: "https://raw.githubusercontent.com/remojansen/logo.ts/master/ts.png",
+  },
+  {
+    name: "Project Manager",
+    imgPath: "https://upload.wikimedia.org/wikipedia/commons/9/96/Sass_Logo_Color.svg",
+  },
+  {
+    name: "Project Manager",
+    imgPath: "https://assets.vercel.com/image/upload/v1662130559/nextjs/Icon_dark_background.png",
+  },
+  {
+    name: "Project Manager",
+    imgPath: "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png",
+  },
+  {
+    name: "Interactive Developer",
+    imgPath:"https://upload.wikimedia.org/wikipedia/commons/9/95/Vue.js_Logo_2.svg",
+  },
+  {
+    name: "Project Manager",
+    imgPath: "https://nestjs.com/img/logo-small.svg",
   },
   {
     name: "Python Developer",
@@ -132,12 +156,12 @@ const techStackImgs = [
     imgPath: "https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg",
   },
   {
-    name: "Interactive Developer",
-    imgPath:"https://upload.wikimedia.org/wikipedia/commons/9/95/Vue.js_Logo_2.svg",
+    name: "Project Manager",
+    imgPath: "https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png",
   },
   {
     name: "Project Manager",
-    imgPath: "https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png",
+    imgPath: "https://upload.wikimedia.org/wikipedia/commons/2/29/Postgresql_elephant.svg",
   },
 ];
 
@@ -148,24 +172,24 @@ const techStackIcons = [
     scale: [1, 1, 1] as [number, number, number],
     rotation: [0, 0, 0] as [number, number, number],
   },
-  {
-    name: "Python Developer",
-    modelPath: "/models/python-transformed.glb",
-    scale: [0.8, 0.8, 0.8] as [number, number, number],
-    rotation: [0, 0, 0] as [number, number, number],
-  },
+  // {
+  //   name: "Python Developer",
+  //   modelPath: "/models/python-transformed.glb",
+  //   scale: [0.8, 0.8, 0.8] as [number, number, number],
+  //   rotation: [0, 0, 0] as [number, number, number],
+  // },
   {
     name: "Backend Developer",
     modelPath: "/models/node-transformed.glb",
     scale: [5, 5, 5] as [number, number, number],
     rotation: [0, -Math.PI / 2, 0] as [number, number, number],
   },
-  {
-    name: "Interactive Developer",
-    modelPath: "/models/three.js-transformed.glb",
-    scale: [0.05, 0.05, 0.05] as [number, number, number],
-    rotation: [0, 0, 0] as [number, number, number],
-  },
+  // {
+  //   name: "Interactive Developer",
+  //   modelPath: "/models/three.js-transformed.glb",
+  //   scale: [0.05, 0.05, 0.05] as [number, number, number],
+  //   rotation: [0, 0, 0] as [number, number, number],
+  // },
   {
     name: "Project Manager",
     modelPath: "/models/git-svg-transformed.glb",
@@ -232,66 +256,72 @@ const expLogos = [
 
 const testimonials = [
   {
-    name: "Esther Howard",
-    mentions: "@estherhoward",
+    name: "Promise Saviour",
+    mentions: "@promiseNotNull",
     review:
-      "I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.",
+      "I can’t say enough good things about Michael. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.",
     imgPath: client1,
   },
   {
-    name: "Wade Warren",
-    mentions: "@wadewarren",
+    name: "ezra Soukou",
+    mentions: "@OwirePrince",
     review:
-      "Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.",
+      "Working with Michael was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.",
     imgPath: client3,
   },
   {
-    name: "Guy Hawkins",
-    mentions: "@guyhawkins",
+    name: "Prince Owire",
+    mentions: "@OwirePrince",
     review:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Collaborating with Michael was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Michael's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Michael is the ideal partner.",
     imgPath: client2,
-  },
-  {
-    name: "Marvin McKinney",
-    mentions: "@marvinmckinney",
-    review:
-      "Adrian was a pleasure to work with. He turned our outdated website into a fresh, intuitive platform that’s both modern and easy to navigate. Fantastic work overall.",
-    imgPath: client5,
   },
   {
     name: "Floyd Miles",
     mentions: "@floydmiles",
     review:
-      "Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional!",
+      "Michael was a pleasure to work with. He turned our outdated website into a fresh, intuitive platform that’s both modern and easy to navigate. Fantastic work overall.",
+    imgPath: client5,
+  },
+  {
+   
+    name: "Bright Orji",
+    mentions: "@marvelous_orji",
+    review:
+      "Michael’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional!",
     imgPath: client4,
   },
   {
     name: "Albert Flores",
     mentions: "@albertflores",
     review:
-      "Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend and backend dev are top-notch.",
+      "Michael was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend and backend dev are top-notch.",
     imgPath: client6,
   },
 ];
+
 
 
 const socialImgs = [
   {
     name: "insta",
     imgPath: instaImg,
+    link: "https://www.instagram.com/michael_65438?igsh=MW9mMTEwMW9pbWxncw==",
   },
   {
     name: "fb",
     imgPath: fbImg,
+    link: "https://www.facebook.com/profile.php?id=100090424655853",
   },
   {
     name: "x",
     imgPath: xImg,
+    link: "https://x.com/itzMichael_dev?t=5AISqBVzgcmt3rBumgrvJA&s=09",
   },
   {
     name: "linkedin",
     imgPath: linkedinImg,
+    link: "https://www.linkedin.com/in/michael-onyekwere",
   },
 ];
 
