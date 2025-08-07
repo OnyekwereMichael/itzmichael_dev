@@ -152,11 +152,15 @@ section {
       @apply flex xl:flex-row flex-col gap-10 justify-between;
     }
 
+    .showcaselayout_ {
+      @apply flex xl:flex-row-reverse flex-col gap-10 justify-between;
+    }
+
     .first-project-wrapper {
       @apply h-full flex flex-col justify-between xl:w-[60%] ;
 
       .image-wrapper {
-        @apply xl:h-[70vh] md:h-[50vh] h-96 relative bg-contain rounded-[10px] border border-white/10 bg-gradient-to-br from-gray-900/50 to-gray-800/30 backdrop-blur-sm;
+        @apply xl:h-[70vh] md:h-[50vh] h-96 relative ;
 
         img {
           @apply w-full h-full object-contain rounded-xl;
@@ -165,7 +169,7 @@ section {
       }
 
       .text-content {
-        @apply space-y-5 mt-5;
+        @apply space-y-5 mt-5 max-sm:mt-0;
 
         .badges {
           @apply flex gap-2 mb-4;
@@ -183,12 +187,17 @@ section {
       .project {
         @apply border border-white/10 bg-gradient-to-br from-gray-900/50 to-gray-800/30 backdrop-blur-sm rounded-[10px] p-4;
       }
-      /* .image-wrapper {
-        @apply xl:h-[37vh] md:h-52 lg:h-72 h-64 relative rounded-xl xl:px-5 2xl:px-12 py-0;
-      } */
+    }
+
+    .project-list-wrapper-reversed {
+      @apply flex md:flex-row flex-col xl:flex-col gap-10 xl:w-[40%] xl:order-first;
+
+      .project {
+        @apply border border-white/10 bg-gradient-to-br from-gray-900/50 to-gray-800/30 backdrop-blur-sm rounded-[10px] p-4;
+      }
 
       img {
-        @apply w-full h-full object-contain ;
+        @apply w-full h-full object-contain;
         position: static;
       }
 
