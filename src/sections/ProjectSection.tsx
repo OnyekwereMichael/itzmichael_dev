@@ -50,7 +50,7 @@ const ProjectSection = () => {
   return (
     <div id="work" ref={sectionRef} className="app-showcase">
       <div className="w-full">
-        <div className="showcaselayout max-sm:mt-5 cursor-pointer">
+        <div className="showcaselayout max-sm:mt-0 cursor-pointer">
           {/* Project 1 */}
           <div ref={rydeRef} className="first-project-wrapper">
             <a href="http://tryvendorsapp.com/">
@@ -60,13 +60,14 @@ const ProjectSection = () => {
       href="http://tryvendorsapp.com/"
       target="_blank"
       rel="noopener noreferrer"
-      className="absolute top-10 right-2 w-10 h-10 flex items-center justify-center rounded-full bg-black/70 backdrop-blur-sm border border-white/20 text-white hover:bg-black/90 transition-all duration-300"
+      className="absolute top-20 right-1 w-7 h-7   /* mobile default */
+          sm:top-10 sm:right-2 sm:w-10 sm:h-10  /* desktop */ flex items-center justify-center rounded-full bg-black/70 backdrop-blur-sm border border-white/20 text-white hover:bg-black/90 transition-all duration-300"
     >
-      <BsArrowUpRight className="w-5 h-5" />
+      <BsArrowUpRight className="w-3 h-3 sm:w-5 sm:h-5"/>
     </a>
               </div>
               <div className="text-content">
-                <h2 className="leading-12">
+                <h2 className="leading-12 max-sm:leading-10">
                   Vendors App, a product built for vendors to manage their
                   business
                 </h2>
@@ -84,12 +85,13 @@ const ProjectSection = () => {
               <div className="image-wrapper relative">
                 <img src={project6} alt="Whitelist App " />
                 <a
-      href="http://tryvendorsapp.com/"
+      href="https://www.whitelistproperties.com"
       target="_blank"
       rel="noopener noreferrer"
-      className="absolute top-10 right-2 w-10 h-10 flex items-center justify-center rounded-full bg-black/70 backdrop-blur-sm border border-white/20 text-white hover:bg-black/90 transition-all duration-300"
+      className="absolute top-20 right-1 w-7 h-7   /* mobile default */
+          sm:top-10 sm:right-2 sm:w-10 sm:h-10  /* desktop */ flex items-center justify-center rounded-full bg-black/70 backdrop-blur-sm border border-white/20 text-white hover:bg-black/90 transition-all duration-300"
     >
-      <BsArrowUpRight className="w-5 h-5" />
+      <BsArrowUpRight className="w-3 h-3 sm:w-5 sm:h-5" />
     </a>
               </div>
               <div className="text-content">
@@ -116,9 +118,10 @@ const ProjectSection = () => {
       href="https://react-secure-inputs-guide.vercel.app/"
       target="_blank"
       rel="noopener noreferrer"
-      className="absolute top-10 right-2 w-10 h-10 flex items-center justify-center rounded-full bg-black/70 backdrop-blur-sm border border-white/20 text-white hover:bg-black/90 transition-all duration-300"
+      className="absolute top-20 right-1 w-7 h-7   /* mobile default */
+          sm:top-10 sm:right-2 sm:w-10 sm:h-10  /* desktop */ flex items-center justify-center rounded-full bg-black/70 backdrop-blur-sm border border-white/20 text-white hover:bg-black/90 transition-all duration-300"
     >
-      <BsArrowUpRight className="w-5 h-5" />
+      <BsArrowUpRight className="w-3 h-3 sm:w-5 sm:h-5" />
     </a>
               </div>
               <div className="text-content">
@@ -126,7 +129,7 @@ const ProjectSection = () => {
                 React Secure Input – Custom input fields made easy.
                 </h2>
                 <p className="text-white-50 md:text-xl leading-8">
-                  An app built with Nextjs, Nodejs, Typescript, Mongodb and
+                  An app built with Reactjs, Typescript and
                   TailwindCSS.
                 </p>
               </div>
@@ -143,9 +146,10 @@ const ProjectSection = () => {
       href="https://twit-flash-q7bo.vercel.app/signin"
       target="_blank"
       rel="noopener noreferrer"
-      className="absolute top-10 right-2 w-10 h-10 flex items-center justify-center rounded-full bg-black/70 backdrop-blur-sm border border-white/20 text-white hover:bg-black/90 transition-all duration-300"
+      className="absolute top-20 right-1 w-7 h-7   /* mobile default */
+          sm:top-10 sm:right-2 sm:w-10 sm:h-10  /* desktop */ flex items-center justify-center rounded-full bg-black/70 backdrop-blur-sm border border-white/20 text-white hover:bg-black/90 transition-all duration-300"
     >
-      <BsArrowUpRight className="w-5 h-5" />
+      <BsArrowUpRight className="w-3 h-3 sm:w-5 sm:h-5" />
     </a>
               </div>
               <div className="text-content">
@@ -173,9 +177,10 @@ const ProjectSection = () => {
       href="https://nexview-pdew.vercel.app/"
       target="_blank"
       rel="noopener noreferrer"
-      className="absolute top-10 right-2 w-10 h-10 flex items-center justify-center rounded-full bg-black/70 backdrop-blur-sm border border-white/20 text-white hover:bg-black/90 transition-all duration-300"
+      className="absolute top-20 right-1 w-7 h-7   /* mobile default */
+          sm:top-10 sm:right-2 sm:w-10 sm:h-10  /* desktop */ flex items-center justify-center rounded-full bg-black/70 backdrop-blur-sm border border-white/20 text-white hover:bg-black/90 transition-all duration-300"
     >
-      <BsArrowUpRight className="w-5 h-5" />
+      <BsArrowUpRight className="w-3 h-3 sm:w-5 sm:h-5" />
     </a>
               </div>
               <div className="text-content">
@@ -199,9 +204,10 @@ const ProjectSection = () => {
       href="https://xclux-ecommerce-8pc8.vercel.app/home"
       target="_blank"
       rel="noopener noreferrer"
-      className="absolute top-10 right-2 w-10 h-10 flex items-center justify-center rounded-full bg-black/70 backdrop-blur-sm border border-white/20 text-white hover:bg-black/90 transition-all duration-300"
+      className="absolute top-20 right-1 w-7 h-7   /* mobile default */
+          sm:top-10 sm:right-2 sm:w-10 sm:h-10  /* desktop */ flex items-center justify-center rounded-full bg-black/70 backdrop-blur-sm border border-white/20 text-white hover:bg-black/90 transition-all duration-300"
     >
-      <BsArrowUpRight className="w-5 h-5" />
+      <BsArrowUpRight className="w-3 h-3 sm:w-5 sm:h-5" />
     </a>
               </div>
               <div className="text-content">

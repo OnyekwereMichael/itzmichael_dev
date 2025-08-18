@@ -146,7 +146,7 @@ section {
   }
 
   .app-showcase {
-    @apply w-full mt-10 px-5 md:px-7 py-10 md:py-20 flex items-center justify-center max-sm:mt-0;
+    @apply w-full mt-10 px-5 md:px-7 py-10 md:py-20 flex items-center justify-center max-sm:mt-0 max-sm:py-0;
 
     .showcaselayout {
       @apply flex xl:flex-row flex-col gap-10 justify-between max-sm:gap-0;
@@ -169,7 +169,7 @@ section {
       }
 
       .text-content {
-        @apply space-y-5 mt-5 max-sm:mt-0;
+        @apply space-y-5 mt-5 max-sm:mt-0 max-sm:space-y-1 max-sm:mt-0;
 
         .badges {
           @apply flex gap-2 mb-4;
