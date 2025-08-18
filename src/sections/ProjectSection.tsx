@@ -60,7 +60,7 @@ const ProjectSection = () => {
       href="http://tryvendorsapp.com/"
       target="_blank"
       rel="noopener noreferrer"
-      className="absolute top-1 right-1 w-7 h-7   /* mobile default */
+      className="absolute top-0 right-0 w-8 h-8   /* mobile default */
           sm:top-10 sm:right-2 sm:w-10 sm:h-10  /* desktop */ flex items-center justify-center rounded-full bg-black/70 backdrop-blur-sm border border-white/20 text-white hover:bg-black/90 transition-all duration-300"
     >
       <BsArrowUpRight className="w-3 h-3 sm:w-5 sm:h-5"/>
@@ -88,7 +88,7 @@ const ProjectSection = () => {
       href="https://www.whitelistproperties.com"
       target="_blank"
       rel="noopener noreferrer"
-      className="absolute top-1 right-1 w-7 h-7   /* mobile default */
+      className="absolute top-0 right-0 w-8 h-8    /* mobile default */
           sm:top-10 sm:right-2 sm:w-10 sm:h-10  /* desktop */ flex items-center justify-center rounded-full bg-black/70 backdrop-blur-sm border border-white/20 text-white hover:bg-black/90 transition-all duration-300"
     >
       <BsArrowUpRight className="w-3 h-3 sm:w-5 sm:h-5" />
@@ -118,7 +118,7 @@ const ProjectSection = () => {
       href="https://react-secure-inputs-guide.vercel.app/"
       target="_blank"
       rel="noopener noreferrer"
-      className="absolute top-1 right-1 w-7 h-7   /* mobile default */
+      className="absolute top-0 right-0 w-8 h-8   /* mobile default */
           sm:top-10 sm:right-2 sm:w-10 sm:h-10  /* desktop */ flex items-center justify-center rounded-full bg-black/70 backdrop-blur-sm border border-white/20 text-white hover:bg-black/90 transition-all duration-300"
     >
       <BsArrowUpRight className="w-3 h-3 sm:w-5 sm:h-5" />
@@ -146,7 +146,7 @@ const ProjectSection = () => {
       href="https://twit-flash-q7bo.vercel.app/signin"
       target="_blank"
       rel="noopener noreferrer"
-      className="absolute top-1 right-1 w-7 h-7   /* mobile default */
+      className="absolute top-0 right-0 w-8 h-8   /* mobile default */
           sm:top-10 sm:right-2 sm:w-10 sm:h-10  /* desktop */ flex items-center justify-center rounded-full bg-black/70 backdrop-blur-sm border border-white/20 text-white hover:bg-black/90 transition-all duration-300"
     >
       <BsArrowUpRight className="w-3 h-3 sm:w-5 sm:h-5" />
@@ -177,7 +177,7 @@ const ProjectSection = () => {
       href="https://nexview-pdew.vercel.app/"
       target="_blank"
       rel="noopener noreferrer"
-      className="absolute top-1 right-1 w-7 h-7   /* mobile default */
+      className="absolute top-0 right-0 w-8 h-8   /* mobile default */
           sm:top-10 sm:right-2 sm:w-10 sm:h-10  /* desktop */ flex items-center justify-center rounded-full bg-black/70 backdrop-blur-sm border border-white/20 text-white hover:bg-black/90 transition-all duration-300"
     >
       <BsArrowUpRight className="w-3 h-3 sm:w-5 sm:h-5" />
@@ -204,7 +204,7 @@ const ProjectSection = () => {
       href="https://xclux-ecommerce-8pc8.vercel.app/home"
       target="_blank"
       rel="noopener noreferrer"
-      className="absolute top-1 right-1 w-7 h-7   /* mobile default */
+      className="absolute top-0 right-0 w-8 h-8    /* mobile default */
           sm:top-10 sm:right-2 sm:w-10 sm:h-10  /* desktop */ flex items-center justify-center rounded-full bg-black/70 backdrop-blur-sm border border-white/20 text-white hover:bg-black/90 transition-all duration-300"
     >
       <BsArrowUpRight className="w-3 h-3 sm:w-5 sm:h-5" />
@@ -225,7 +225,7 @@ const ProjectSection = () => {
         )}
 
         {/* View More / View Less Button */}
-        <div className="flex justify-center mt-6">
+        <div className="flex justify-center mt-6 max-sm:mb-8">
           <button
             onClick={() => setShowMore(!showMore)}
             className="px-6 py-2 border border-white/20 rounded-lg text-white/80 hover:text-white hover:border-white/40 transition-all duration-300 bg-white/5"

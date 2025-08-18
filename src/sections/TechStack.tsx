@@ -39,26 +39,7 @@ const TechStack = () => {
                 />
                 <div className="tech-grid">
 
-                    {techStackIcons.map((techStackIcon) => (
-                        <div
-                            key={techStackIcon.name}
-                            className="card-border tech-card overflow-hidden group xl:rounded-lg rounded-lg"
-                        >
-
-                            <div className="tech-card-animated-bg" />
-                            <div className="tech-card-content">
-
-                                <div className="tech-icon-wrapper">
-                                    <TechIcon model={techStackIcon} />
-                                </div>
-
-                                <div className="padding-x w-full">
-                                    {/* The p tag contains the name of the tech stack icon. */}
-                                    {/* <p>{techStackIcon.name}</p> */}
-                                </div>
-                            </div>
-                        </div>
-                    ))}
+                    
 
                     {/* This is for the img part */}
                     {techStackImgs.map((techStackIcon, index) => (

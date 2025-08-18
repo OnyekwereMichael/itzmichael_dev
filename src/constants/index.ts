@@ -121,6 +121,14 @@ const abilities = [
 const techStackImgs = [
   {
     name: "React Developer",
+    imgPath: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1024px-React-icon.svg.png",
+  },
+  {
+    name: "React Developer",
+    imgPath: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/600px-Node.js_logo.svg.png",
+  },
+  {
+    name: "React Developer",
     imgPath: "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png",
   },
   {
