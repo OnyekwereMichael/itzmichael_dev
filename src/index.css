@@ -149,11 +149,11 @@ section {
     @apply w-full mt-10 px-5 md:px-7 py-10 md:py-20 flex items-center justify-center max-sm:mt-0;
 
     .showcaselayout {
-      @apply flex xl:flex-row flex-col gap-10 justify-between;
+      @apply flex xl:flex-row flex-col gap-10 justify-between max-sm:gap-0;
     }
 
     .showcaselayout_ {
-      @apply flex xl:flex-row-reverse flex-col gap-10 justify-between;
+      @apply flex xl:flex-row-reverse flex-col gap-10 justify-between max-sm:gap-0;
     }
 
     .first-project-wrapper {
@@ -185,7 +185,7 @@ section {
       @apply flex md:flex-row flex-col xl:flex-col gap-10 xl:w-[40%];
 
       .project {
-        @apply border border-white/10 bg-gradient-to-br from-gray-900/50 to-gray-800/30 backdrop-blur-sm rounded-[10px] p-4;
+        @apply backdrop-blur-sm rounded-[10px] p-4;
       }
     }
 

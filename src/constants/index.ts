@@ -76,9 +76,9 @@ const words = [
 
 const counterItems = [
   { value: 3, suffix: "+", label: "Years of Experience" },
-  { value: 10, suffix: "+", label: "Satisfied Clients" },
-  { value: 30, suffix: "+", label: "Completed Projects" },
-  { value: 5, suffix: "%", label: "Client Retention Rate" },
+  { value: 3, suffix: "+", label: "Satisfied Clients" },
+  { value: 20, suffix: "+", label: "Completed Projects" },
+  { value: 3, suffix: "%", label: "Client Retention Rate" },
 ];
 
 const logoIconsList = [
@@ -204,23 +204,23 @@ const expCards = [
     imgPath: KainoTech,
     logoPath: Kaino_k,
     title: "Frontend Developer",
-    date: "July 2024 - Present",
+    date: "September 2024 - Present",
     responsibilities: [
-      "Developed and maintained user-facing features for the Hostinger website.",
-      "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
-      "Optimized web applications for maximum speed and scalability.",
+      "Engineered a high-performance rental platform designed to streamline interactions between tenants and property owners/managers.",
+      "Built features allowing users to schedule viewings, submit rental applications, and connect directly with property owners or managers.",
+      "Developed property management tools that enable owners to showcase listings, track applications, and communicate with tenants efficiently",
     ],
   },
   {
     review: "My contributions to Vendors App were both impactful and strategic. I approached each challenge with a solution-oriented mindset, helping the team move quickly and effectively in a fast-paced environment.",
     imgPath: Vendors_app,
     logoPath: Vendors_app,
-    title: "Full Stack Developer",
-    date: "September 2024 - Present",
+    title: "Startup (Frontend Developer)",
+    date: "December 2024 - Present",
     responsibilities: [
-      "Led the development of Docker's web applications, focusing on scalability.",
-      "Worked with backend engineers to integrate APIs seamlessly with the frontend.",
-      "Contributed to open-source projects that were used with the Docker ecosystem.",
+      "Translated UI/UX designs and wireframes into fully functional, accessible web applications in partnership with designers.",
+      "Crafted scalable and high-performance UI components using React, Next.js, and Tailwindcss, significantly enhancing the overall user experience and interface responsiveness.",
+      "Built reusable components and libraries to streamline development and improve code maintainability.",
     ],
   },
   {
@@ -228,7 +228,7 @@ const expCards = [
     imgPath: Gentori,
     logoPath: Gentori,
     title: "React Native Developer",
-    date: "March 2025 - Present",
+    date: "Contract (April 2025 - June 2025)",
     responsibilities: [
       "Developed cross-platform mobile applications using React Native, with a strong focus on performance, usability, and maintainability.",
       "Optimized application performance through thoughtful refactoring, profiling, and testing to enhance the overall user experience.",

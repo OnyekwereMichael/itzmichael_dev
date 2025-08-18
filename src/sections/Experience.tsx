@@ -41,28 +41,23 @@ const Experience = () => {
     // from the top of the timeline to 70% down the screen
     // The timeline height should scale down from 1 to 0
     // as the user scrolls up the screen
-    gsap.to(".timeline", {
-      // Set the origin of the animation to the bottom of the timeline
+   // Animate the timeline height as the user scrolls
+   gsap.fromTo(`.timeline`,
+    { scaleY: 1 },
+    {
+      scaleY: 0,
       transformOrigin: "bottom bottom",
-      // Animate the timeline height over 1 second
-      ease: "power1.inOut",
-      // Trigger the animation when the timeline is at the top of the screen
-      // and end it when the timeline is at 70% down the screen
+      ease: "none",
       scrollTrigger: {
-        trigger: ".timeline",
+        trigger: `.timeline`,
         start: "top center",
         end: "70% center",
-        // Update the animation as the user scrolls
-        onUpdate: (self) => {
-          // Scale the timeline height as the user scrolls
-          // from 1 to 0 as the user scrolls up the screen
-          gsap.to(".timeline", {
-            scaleY: 1 - self.progress,
-          });
-        },
+        scrub: true,
       },
-    });
-
+    }
+  );
+  
+  
     // Loop through each expText element and animate them in
     // as the user scrolls to each text element
     gsap.utils.toArray(".expText").forEach((text) => {
@@ -114,7 +109,7 @@ const Experience = () => {
                 <div className="xl:w-4/6">
                   <div className="flex items-start">
                     <div className="timeline-wrapper">
-                      <div className="timeline" />
+                      <div className={`timeline timeline-${index}`} />
                       <div className="gradient-line w-1 h-full xl:ml-10" />
                     </div>
                     <div className="expText flex xl:gap-20 md:gap-10 gap-5 relative z-20">

@@ -5,12 +5,13 @@ import { words } from '../constants'
 import { useGSAP } from '@gsap/react'
 import { gsap } from 'gsap'
 import MyImg from '/src/assets/public/images/myown.jpg'
+import resume from '../../src/assets/public/Michael_.pdf'
 
 
 
 const Hero = () => {
   useGSAP(() => {
-    gsap.fromTo('.hero-text h1', { y: 50, opacity: 0 }, { y: 0, opacity: 1, stagger: 0.2, duration: 1, ease: 'power2.inout' }); 
+    gsap.fromTo('.hero-text h1', { y: 50, opacity: 0 }, { y: 0, opacity: 1, stagger: 0.2, duration: 1, ease: 'power2.inout' });
   })
   return (
     <section id='hero' className='relative overflow-hidden min-h-screen flex items-center justify-center flex-wrap '>
@@ -24,7 +25,7 @@ const Hero = () => {
       {/* Main Content Container */}
       <div className='relative z-10 w-full   px-5 md:px-5 lg:px-6 py-20 mb-40 max-sm:mb-0 max-sm:py-0 max-sm:pt-20'>
         <div className='grid grid-cols-1 lg:grid-cols-12  items-center'>
-          
+
           {/* Left: Text Content */}
           <div className='lg:col-span-6 flex flex-col space-y-8'>
             {/* Professional Badge */}
@@ -73,17 +74,19 @@ const Hero = () => {
               <Button
                 text="See My Work"
                 className="md:w-64 md:h-14 w-full h-12"
-                id="counter" 
+                id="counter"
               />
-              <a 
-                href="#contact" 
+              <a
+                href={resume}
+               target="_blank"
                 className="flex items-center justify-center md:w-64 md:h-14 w-full h-14 px-6 border border-white/20 rounded-xl text-white/80 hover:text-white hover:border-white/40 transition-all duration-300 backdrop-blur-sm bg-white/5"
               >
-                <span className="font-medium">Get in Touch</span>
+                <span className="font-medium">View Resume</span>
               </a>
+
             </div>
 
-            
+
           </div>
 
           {/* Right: Profile Image */}
@@ -91,28 +94,15 @@ const Hero = () => {
             <div className='relative w-full h-full md:w-full md:h-full'>
               {/* Profile Image Container */}
               <div className='relative w-full h-full rounded-2xl overflow-hidden shadow-2xl border-4 border-white/10 bg-black/30'>
-                <img 
-                  src={MyImg} 
-                  alt="Michael - Software Developer" 
+                <img
+                  src={MyImg}
+                  alt="Michael - Software Developer"
                   className="w-full h-full object-cover"
                 />
                 {/* Professional overlay */}
                 <div className='absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent'></div>
               </div>
-              
-              {/* Floating tech badges with enhanced styling */}
-              {/* <div className='absolute top-8 -right-6 bg-white/15 backdrop-blur-md border border-white/30 rounded-xl p-3 shadow-lg hover:scale-110 transition-all duration-300'>
-                <img src="/src/assets/public/images/logos/react.png" alt="React" className="w-8 h-8" />
-              </div>
-              <div className='absolute bottom-8 -left-6 bg-white/15 backdrop-blur-md border border-white/30 rounded-xl p-3 shadow-lg hover:scale-110 transition-all duration-300'>
-                <img src="/src/assets/public/images/logos/python.svg" alt="Python" className="w-8 h-8" />
-              </div>
-              <div className='absolute -top-6 -right-6 bg-white/15 backdrop-blur-md border border-white/30 rounded-xl p-3 shadow-lg hover:scale-110 transition-all duration-300'>
-                <img src="/src/assets/public/images/logos/node.png" alt="Node.js" className="w-8 h-8" />
-              </div>
-              <div className='absolute -bottom-6 -left-6 bg-white/15 backdrop-blur-md border border-white/30 rounded-xl p-3 shadow-lg hover:scale-110 transition-all duration-300'>
-                <img src="/src/assets/public/images/logos/git.svg" alt="Git" className="w-8 h-8" />
-              </div> */}
+
             </div>
           </div>
         </div>
