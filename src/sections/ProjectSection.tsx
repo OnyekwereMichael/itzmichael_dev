@@ -50,24 +50,24 @@ const ProjectSection = () => {
   return (
     <div id="work" ref={sectionRef} className="app-showcase">
       <div className="w-full">
-        <div className="showcaselayout max-sm:mt-0 cursor-pointer">
+        <div className="showcaselayout  cursor-pointer">
           {/* Project 1 */}
-          <div ref={rydeRef} className="first-project-wrapper">
-            <a href="http://tryvendorsapp.com/">
+          <div ref={rydeRef} className="first-project-wrapper ">
+            <a href="http://tryvendorsapp.com/" className="max-sm:mt-8">
               <div className="image-wrapper relative">
                 <img src={project1} alt="Vendors App" />
                 <a
       href="http://tryvendorsapp.com/"
       target="_blank"
       rel="noopener noreferrer"
-      className="absolute top-20 right-1 w-7 h-7   /* mobile default */
+      className="absolute top-1 right-1 w-7 h-7   /* mobile default */
           sm:top-10 sm:right-2 sm:w-10 sm:h-10  /* desktop */ flex items-center justify-center rounded-full bg-black/70 backdrop-blur-sm border border-white/20 text-white hover:bg-black/90 transition-all duration-300"
     >
       <BsArrowUpRight className="w-3 h-3 sm:w-5 sm:h-5"/>
     </a>
               </div>
-              <div className="text-content">
-                <h2 className="leading-12 max-sm:leading-10">
+              <div className="text-content max-sm:mt-4">
+                <h2 className="leading-14 max-sm:leading-10 max-sm:mt-1">
                   Vendors App, a product built for vendors to manage their
                   business
                 </h2>
@@ -88,14 +88,14 @@ const ProjectSection = () => {
       href="https://www.whitelistproperties.com"
       target="_blank"
       rel="noopener noreferrer"
-      className="absolute top-20 right-1 w-7 h-7   /* mobile default */
+      className="absolute top-1 right-1 w-7 h-7   /* mobile default */
           sm:top-10 sm:right-2 sm:w-10 sm:h-10  /* desktop */ flex items-center justify-center rounded-full bg-black/70 backdrop-blur-sm border border-white/20 text-white hover:bg-black/90 transition-all duration-300"
     >
       <BsArrowUpRight className="w-3 h-3 sm:w-5 sm:h-5" />
     </a>
               </div>
-              <div className="text-content">
-                <h2 className="leading-12">
+              <div className="text-content max-sm:mt-4">
+                <h2 className="leading-14 max-sm:leading-10">
                   Whitelist, An App that connects property owners with tenants
                 </h2>
                 <p className="text-white-50 md:text-xl leading-8">
@@ -111,21 +111,21 @@ const ProjectSection = () => {
           {/* Project 3 */}
           
           <div className="first-project-wrapper rounded-[10px]">
-            <a href="https://react-secure-inputs-guide.vercel.app/">
+            <a href="https://react-secure-inputs-guide.vercel.app/" className="max-sm:mt-8">
               <div className="image-wrapper relative">
                 <img src={project5} alt="Twit_Flash" />
                 <a
       href="https://react-secure-inputs-guide.vercel.app/"
       target="_blank"
       rel="noopener noreferrer"
-      className="absolute top-20 right-1 w-7 h-7   /* mobile default */
+      className="absolute top-1 right-1 w-7 h-7   /* mobile default */
           sm:top-10 sm:right-2 sm:w-10 sm:h-10  /* desktop */ flex items-center justify-center rounded-full bg-black/70 backdrop-blur-sm border border-white/20 text-white hover:bg-black/90 transition-all duration-300"
     >
       <BsArrowUpRight className="w-3 h-3 sm:w-5 sm:h-5" />
     </a>
               </div>
-              <div className="text-content">
-                <h2 className="leading-12">
+              <div className="text-content max-sm:mt-4">
+                <h2 className="leading-14 max-sm:leading-10">
                 React Secure Input – Custom input fields made easy.
                 </h2>
                 <p className="text-white-50 md:text-xl leading-8">
@@ -146,14 +146,14 @@ const ProjectSection = () => {
       href="https://twit-flash-q7bo.vercel.app/signin"
       target="_blank"
       rel="noopener noreferrer"
-      className="absolute top-20 right-1 w-7 h-7   /* mobile default */
+      className="absolute top-1 right-1 w-7 h-7   /* mobile default */
           sm:top-10 sm:right-2 sm:w-10 sm:h-10  /* desktop */ flex items-center justify-center rounded-full bg-black/70 backdrop-blur-sm border border-white/20 text-white hover:bg-black/90 transition-all duration-300"
     >
       <BsArrowUpRight className="w-3 h-3 sm:w-5 sm:h-5" />
     </a>
               </div>
-              <div className="text-content">
-                <h2 className="leading-12">
+              <div className="text-content max-sm:mt-4">
+                <h2 className="leading-14 max-sm:leading-10">
                   Twit_Flash – A social app to share and connect with your
                   friends.
                 </h2>
@@ -177,14 +177,14 @@ const ProjectSection = () => {
       href="https://nexview-pdew.vercel.app/"
       target="_blank"
       rel="noopener noreferrer"
-      className="absolute top-20 right-1 w-7 h-7   /* mobile default */
+      className="absolute top-1 right-1 w-7 h-7   /* mobile default */
           sm:top-10 sm:right-2 sm:w-10 sm:h-10  /* desktop */ flex items-center justify-center rounded-full bg-black/70 backdrop-blur-sm border border-white/20 text-white hover:bg-black/90 transition-all duration-300"
     >
       <BsArrowUpRight className="w-3 h-3 sm:w-5 sm:h-5" />
     </a>
               </div>
-              <div className="text-content">
-                <h2 className="leading-12">
+              <div className="text-content max-sm:mt-4">
+                <h2 className="leading-14 max-sm:leading-10">
                 Nexview – An AI-powered platform to help you ace any interview.
                 </h2>
                 <p className="text-white-50 md:text-xl leading-8">
@@ -204,14 +204,14 @@ const ProjectSection = () => {
       href="https://xclux-ecommerce-8pc8.vercel.app/home"
       target="_blank"
       rel="noopener noreferrer"
-      className="absolute top-20 right-1 w-7 h-7   /* mobile default */
+      className="absolute top-1 right-1 w-7 h-7   /* mobile default */
           sm:top-10 sm:right-2 sm:w-10 sm:h-10  /* desktop */ flex items-center justify-center rounded-full bg-black/70 backdrop-blur-sm border border-white/20 text-white hover:bg-black/90 transition-all duration-300"
     >
       <BsArrowUpRight className="w-3 h-3 sm:w-5 sm:h-5" />
     </a>
               </div>
-              <div className="text-content">
-                <h2 className="leading-12">
+              <div className="text-content max-sm:mt-4">
+                <h2 className="leading-14 max-sm:leading-10">
                   Xclux, an Ecommerce app that makes shopping easy.
                 </h2>
                 <p className="text-white-50 md:text-xl leading-8">

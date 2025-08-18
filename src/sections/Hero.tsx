@@ -66,7 +66,7 @@ const Hero = () => {
 
             {/* Description */}
             <p className="text-white/80 md:text-lg lg:text-xl leading-relaxed max-w-2xl">
-              Hi, I'm Michael — a software developer based in Nigeria, passionate about building impactful digital experiences through code.
+              Hi, I'm Michael — a Frontend/Mobile developer based in Nigeria, passionate about building impactful digital experiences through code.
             </p>
 
             {/* CTA Buttons */}

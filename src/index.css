@@ -149,18 +149,18 @@ section {
     @apply w-full mt-10 px-5 md:px-7 py-10 md:py-20 flex items-center justify-center max-sm:mt-0 max-sm:py-0;
 
     .showcaselayout {
-      @apply flex xl:flex-row flex-col gap-10 justify-between max-sm:gap-0;
+      @apply flex xl:flex-row flex-col gap-10 justify-between max-sm:gap-10 max-sm:mt-10;
     }
 
     .showcaselayout_ {
-      @apply flex xl:flex-row-reverse flex-col gap-10 justify-between max-sm:gap-0;
+      @apply flex xl:flex-row-reverse flex-col gap-10 justify-between max-sm:gap-7 max-sm:mt-10;
     }
 
     .first-project-wrapper {
       @apply h-full flex flex-col justify-between xl:w-[60%] ;
 
       .image-wrapper {
-        @apply xl:h-[70vh] md:h-[50vh] h-96 relative ;
+        @apply xl:h-[70vh] md:h-[50vh] h-96 max-sm:h-full relative ;
 
         img {
           @apply w-full h-full object-contain rounded-xl;
