@@ -5,7 +5,7 @@ import { words } from '../constants'
 import { useGSAP } from '@gsap/react'
 import { gsap } from 'gsap'
 import MyImg from '/src/assets/public/images/myown.jpg'
-import resume from '../../src/assets/public/Michael_.pdf'
+import resume from '../../src/assets/public/Michael.pdf'
 
 
 
