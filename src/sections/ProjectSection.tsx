@@ -188,7 +188,7 @@ const ProjectSection = () => {
                 Nexview – An AI-powered platform to help you ace any interview.
                 </h2>
                 <p className="text-white-50 md:text-xl leading-8">
-                  An app built with Reactjs,  Typescript and
+                  An app built with Reactjs,  Typescript, Vapi, Expressjs and Nodejs
                   TailwindCSS.
                 </p>
               </div>
@@ -215,7 +215,7 @@ const ProjectSection = () => {
                   Xclux, an Ecommerce app that makes shopping easy.
                 </h2>
                 <p className="text-white-50 md:text-xl leading-8">
-                  An app built with Reactjs, Typescript, and TailwindCSS for a
+                  An app built with Reactjs, Typescript,  TailwindCSS, Nodejs, Expressjs, and Mongobd for a
                   fast, user-friendly experience.
                 </p>
               </div>

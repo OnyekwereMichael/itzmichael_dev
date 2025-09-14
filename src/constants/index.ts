@@ -211,7 +211,7 @@ const expCards = [
     review: "I brought creativity and technical expertise to the team, significantly improving our frontend performance. My contributions played a key role in delivering faster, more efficient user experiences.",
     imgPath: KainoTech,
     logoPath: Kaino_k,
-    title: "Frontend Developer",
+    title: "FullStack Developer",
     date: "September 2024 - Present",
     responsibilities: [
       "Engineered a high-performance rental platform designed to streamline interactions between tenants and property owners/managers.",
