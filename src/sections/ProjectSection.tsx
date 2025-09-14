@@ -72,7 +72,7 @@ const ProjectSection = () => {
                   business
                 </h2>
                 <p className="text-white-50 md:text-xl leading-8">
-                  An app built with Nextjs, Typescript, and TailwindCSS for a
+                  An app built with Nextjs, Typescript, Expressjs and Nodejs and TailwindCSS for a
                   fast, user-friendly experience.
                 </p>
               </div>
@@ -99,7 +99,7 @@ const ProjectSection = () => {
                   Whitelist, An App that connects property owners with tenants
                 </h2>
                 <p className="text-white-50 md:text-xl leading-8">
-                  An app built with Nextjs, Typescript, and Material UI for a
+                  An app built with Nextjs, Typescript, Expressjs and Nodejs, and Material UI for a
                   fast, user-friendly experience.
                 </p>
               </div>
