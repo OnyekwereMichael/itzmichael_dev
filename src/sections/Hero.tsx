@@ -6,6 +6,7 @@ import { useGSAP } from '@gsap/react'
 import { gsap } from 'gsap'
 import MyImg from '/src/assets/public/images/myown.jpg'
 import resume from '../../src/assets/public/Michael.pdf'
+import resu from '../../src/assets/public/Miko.pdf'
 
 
 
@@ -79,7 +80,7 @@ const Hero = () => {
                 id="counter"
               />
               <a
-                href={resume}
+                href={resu}
                target="_blank"
                 className="flex items-center justify-center md:w-64 md:h-14 w-full h-14 px-6 border border-white/20 rounded-xl text-white/80 hover:text-white hover:border-white/40 transition-all duration-300 backdrop-blur-sm bg-white/5"
               >
