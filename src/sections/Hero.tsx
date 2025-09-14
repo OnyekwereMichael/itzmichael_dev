@@ -5,7 +5,7 @@ import { words } from '../constants'
 import { useGSAP } from '@gsap/react'
 import { gsap } from 'gsap'
 import MyImg from '/src/assets/public/images/myown.jpg'
-import resume from '../../src/assets/public/Michael.pdf'
+// import resume from '../../src/assets/public/Michael.pdf'
 import resu from '../../src/assets/public/Miko.pdf'
 
 
@@ -69,7 +69,7 @@ const Hero = () => {
             <p className="text-white/80 md:text-lg lg:text-xl leading-relaxed max-w-2xl">
               {/* Hi, I'm Michael — a Frontend/Mobile developer based in Nigeria, passionate about building impactful digital experiences through code. */}
 
-              Hi, I'm Michael — a Full Stack Developer based in Nigeria, passionate about building impactful digital experiences through code.
+              Hi, I'm Michael — a Full Stack Developer based in Nigeria,  passionate about building impactful digital experiences through code.
             </p>
 
             {/* CTA Buttons */}
