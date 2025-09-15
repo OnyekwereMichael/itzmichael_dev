@@ -5,8 +5,7 @@ import { words } from '../constants'
 import { useGSAP } from '@gsap/react'
 import { gsap } from 'gsap'
 import MyImg from '/src/assets/public/images/myown.jpg'
-// import resume from '../../src/assets/public/Michael.pdf'
-import resu from '../../src/assets/public/Miko.pdf'
+import resume from '../../src/assets/public/Michael.pdf'
 
 
 
@@ -67,9 +66,7 @@ const Hero = () => {
 
             {/* Description */}
             <p className="text-white/80 md:text-lg lg:text-xl leading-relaxed max-w-2xl">
-              {/* Hi, I'm Michael — a Frontend/Mobile developer based in Nigeria, passionate about building impactful digital experiences through code. */}
-
-              Hi, I'm Michael — a Full Stack Developer based in Nigeria,  passionate about building impactful digital experiences through code.
+              Hi, I'm Michael — a Frontend/Mobile developer based in Nigeria, passionate about building impactful digital experiences through code.
             </p>
 
             {/* CTA Buttons */}
@@ -80,7 +77,7 @@ const Hero = () => {
                 id="counter"
               />
               <a
-                href={resu}
+                href={resume}
                target="_blank"
                 className="flex items-center justify-center md:w-64 md:h-14 w-full h-14 px-6 border border-white/20 rounded-xl text-white/80 hover:text-white hover:border-white/40 transition-all duration-300 backdrop-blur-sm bg-white/5"
               >
