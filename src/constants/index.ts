@@ -211,7 +211,7 @@ const expCards = [
     review: "I brought creativity and technical expertise to the team, significantly improving our frontend performance. My contributions played a key role in delivering faster, more efficient user experiences.",
     imgPath: KainoTech,
     logoPath: Kaino_k,
-    title: "Fullstack Developer",
+    title: "Frontend Developer",
     date: "September 2024 - Present",
     responsibilities: [
       "Engineered a high-performance rental platform designed to streamline interactions between tenants and property owners/managers.",
@@ -223,7 +223,7 @@ const expCards = [
     review: "My contributions to Vendors App were both impactful and strategic. I approached each challenge with a solution-oriented mindset, helping the team move quickly and effectively in a fast-paced environment.",
     imgPath: Vendors_app,
     logoPath: Vendors_app,
-    title: "Startup (Fullstack Developer)",
+    title: "Startup (Frontend Developer)",
     date: "December 2024 - Present",
     responsibilities: [
       "Translated UI/UX designs and wireframes into fully functional, accessible web applications in partnership with designers.",
