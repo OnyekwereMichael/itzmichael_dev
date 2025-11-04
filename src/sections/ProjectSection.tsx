@@ -9,6 +9,8 @@ import project3 from "../assets/public/images/GIFTY.PNG";
 import project4 from "../assets/public/images/nexs.PNG";
 import project5 from "../assets/public/images/react_i.PNG";
 import project6 from "../assets/public/images/white.PNG";
+import project7 from '../assets/public/images/Gidi1.PNG'
+import project8 from '../assets/public/images/gidi2.PNG'
 import { BsArrowUpRight } from "react-icons/bs";
 
 
@@ -111,6 +113,35 @@ const ProjectSection = () => {
           {/* Project 3 */}
           
           <div className="first-project-wrapper rounded-[10px]">
+            <a href="https://www.gidipitch.app/" className="max-sm:mt-8">
+              <div className="image-wrapper relative">
+                <img src={project7} alt="Twit_Flash" />
+                <a
+      href="https://react-secure-inputs-guide.vercel.app/"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="absolute top-0 right-0 w-8 h-8   /* mobile default */
+          sm:top-10 sm:right-2 sm:w-10 sm:h-10  /* desktop */ flex items-center justify-center rounded-full bg-black/70 backdrop-blur-sm border border-white/20 text-white hover:bg-black/90 transition-all duration-300"
+    >
+      <BsArrowUpRight className="w-3 h-3 sm:w-5 sm:h-5" />
+    </a>
+              </div>
+              <div className="text-content max-sm:mt-4">
+                <h2 className="leading-14 max-sm:leading-10">
+                   GidiPitch – Helping founders craft decks that get investors’ attention.
+                </h2>
+                <p className="text-white-50 md:text-xl leading-8">
+                  An app built with Reactjs, Typescript and
+                  TailwindCSS.
+                </p>
+              </div>
+            </a>
+          </div>
+         
+
+          {/* Project 4 */}
+
+          <div className="first-project-wrapper rounded-[10px]">
             <a href="https://react-secure-inputs-guide.vercel.app/" className="max-sm:mt-8">
               <div className="image-wrapper relative">
                 <img src={project5} alt="Twit_Flash" />
@@ -134,11 +165,17 @@ const ProjectSection = () => {
                 </p>
               </div>
             </a>
-          </div>
-         
+          </div>
 
-          {/* Project 4 */}
-          <div className="first-project-wrapper rounded-[10px]">
+        </div>
+
+        {/* ✅ Extra projects - hidden until View More is clicked */}
+        {showMore && (
+          <div className="showcaselayout mt-5 cursor-pointer">
+          
+
+
+           <div className="first-project-wrapper rounded-[10px]">
             <a href="https://twit-flash-q7bo.vercel.app/signin">
               <div className="image-wrapper relative">
                 <img src={project3} alt="Twit_Flash" />
@@ -159,36 +196,6 @@ const ProjectSection = () => {
                 </h2>
                 <p className="text-white-50 md:text-xl leading-8">
                   An app built with Nextjs, Nodejs, Typescript, Mongodb and
-                  TailwindCSS.
-                </p>
-              </div>
-            </a>
-          </div>
-        </div>
-
-        {/* ✅ Extra projects - hidden until View More is clicked */}
-        {showMore && (
-          <div className="showcaselayout mt-5 cursor-pointer">
-          <div className="first-project-wrapper rounded-[10px]">
-            <a href="https://nexview-pdew.vercel.app/">
-              <div className="image-wrapper relative">
-                <img src={project4} alt="Twit_Flash" />
-                <a
-      href="https://nexview-pdew.vercel.app/"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="absolute top-0 right-0 w-8 h-8   /* mobile default */
-          sm:top-10 sm:right-2 sm:w-10 sm:h-10  /* desktop */ flex items-center justify-center rounded-full bg-black/70 backdrop-blur-sm border border-white/20 text-white hover:bg-black/90 transition-all duration-300"
-    >
-      <BsArrowUpRight className="w-3 h-3 sm:w-5 sm:h-5" />
-    </a>
-              </div>
-              <div className="text-content max-sm:mt-4">
-                <h2 className="leading-14 max-sm:leading-10">
-                Nexview – An AI-powered platform to help you ace any interview.
-                </h2>
-                <p className="text-white-50 md:text-xl leading-8">
-                  An app built with Reactjs,  Typescript and
                   TailwindCSS.
                 </p>
               </div>
@@ -221,8 +228,10 @@ const ProjectSection = () => {
               </div>
             </a>
           </div>
+
           </div>
         )}
+
 
         {/* View More / View Less Button */}
         <div className="flex justify-center mt-6 max-sm:mb-8">
