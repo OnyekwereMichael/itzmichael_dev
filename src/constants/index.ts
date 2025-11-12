@@ -223,7 +223,7 @@ const expCards = [
     review: "My contributions to Vendors App were both impactful and strategic. I approached each challenge with a solution-oriented mindset, helping the team move quickly and effectively in a fast-paced environment.",
     imgPath: Vendors_app,
     logoPath: Vendors_app,
-    title: "Startup (Frontend Developer)",
+    title: "Frontend Developer",
     date: "December 2024 - Present",
     responsibilities: [
       "Translated UI/UX designs and wireframes into fully functional, accessible web applications in partnership with designers.",
@@ -232,7 +232,7 @@ const expCards = [
     ],
   },
   {
-    review: "I work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
+    review: "I worked on Gentori's mobile app, bringing a high level of quality and efficiency. I also delivered solutions that enhanced the client's mobile experience and also met his product goals.",
     imgPath: Gentori,
     logoPath: Gentori,
     title: "React Native Developer",
