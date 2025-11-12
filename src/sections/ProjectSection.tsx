@@ -5,11 +5,10 @@ import { useGSAP } from "@gsap/react";
 import project1 from "../assets/public/images/ven.PNG";
 import project2 from "/src/assets/public/images/photo.PNG";
 import project3 from "../assets/public/images/GIFTY.PNG";
-// Add your new projects images
+
 import project5 from "../assets/public/images/react_i.PNG";
 import project6 from "../assets/public/images/white.PNG";
-import project7 from '../assets/public/images/Decklo.PNG'
-
+import project7 from '../assets/public/images/Macbook-Air-localhost.png'
 import { BsArrowUpRight } from "react-icons/bs";
 
 
@@ -108,41 +107,40 @@ const ProjectSection = () => {
           </div>
         </div>
 
-        <div className="showcaselayout max-sm:mt-0 mt-5 cursor-pointer">
+        <div className="showcaselayout max-sm:mt-0 mt-5 cursor-pointer ">
           {/* Project 3 */}
           
-          <div className="first-project-wrapper rounded-[10px]">
-            <a href="https://www.gidipitch.app/" className="max-sm:mt-8">
-              <div className="image-wrapper relative">
-                <img src={project7} alt="Decklo" />
+       <div className="first-project-wrapper rounded-[10px] ">
+            <a href="https://react-secure-inputs-guide.vercel.app/" className="max-sm:mt-8 mt-8">
+              <div className="image-wrapper relative bg-white p-4 h-[385px]">
+                <img src={project7} alt="Twit_Flash" />
                 <a
-      href="https://react-secure-inputs-guide.vercel.app/"
+      href="https://www.decklo.xyz/"
       target="_blank"
       rel="noopener noreferrer"
       className="absolute top-0 right-0 w-8 h-8   /* mobile default */
-          sm:top-10 sm:right-2 sm:w-10 sm:h-10  /* desktop */ flex items-center justify-center rounded-full bg-black/70 backdrop-blur-sm border border-white/20 text-white hover:bg-black/90 transition-all duration-300"
+          sm:top-2 sm:right-2 sm:w-10 sm:h-10  /* desktop */ flex items-center justify-center rounded-full bg-black/70 backdrop-blur-sm border border-white/20 text-white hover:bg-black/90 transition-all duration-300 "
     >
       <BsArrowUpRight className="w-3 h-3 sm:w-5 sm:h-5" />
     </a>
               </div>
-              <div className="text-content max-sm:mt-4">
+              <div className="text-content max-sm:mt-4 mt-12">
                 <h2 className="leading-14 max-sm:leading-10">
-                  Declo – Helping founders craft decks that get investors’ attention.
+                Decklo – Helping founders craft decks that get investors’ attention.
                 </h2>
                 <p className="text-white-50 md:text-xl leading-8">
-                  An app built with Reactjs, Typescript and
-                  TailwindCSS.
+                 An app built with Reactjs, Typescript and TailwindCSS.
                 </p>
               </div>
             </a>
-          </div>
+          </div>
          
 
           {/* Project 4 */}
 
           <div className="first-project-wrapper rounded-[10px]">
             <a href="https://react-secure-inputs-guide.vercel.app/" className="max-sm:mt-8">
-              <div className="image-wrapper relative">
+              <div className="image-wrapper relative]">
                 <img src={project5} alt="Twit_Flash" />
                 <a
       href="https://react-secure-inputs-guide.vercel.app/"
