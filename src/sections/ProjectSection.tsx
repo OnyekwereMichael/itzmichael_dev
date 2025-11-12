@@ -6,11 +6,10 @@ import project1 from "../assets/public/images/ven.PNG";
 import project2 from "/src/assets/public/images/photo.PNG";
 import project3 from "../assets/public/images/GIFTY.PNG";
 // Add your new projects images
-import project4 from "../assets/public/images/nexs.PNG";
 import project5 from "../assets/public/images/react_i.PNG";
 import project6 from "../assets/public/images/white.PNG";
 import project7 from '../assets/public/images/Gidi1.PNG'
-import project8 from '../assets/public/images/gidi2.PNG'
+
 import { BsArrowUpRight } from "react-icons/bs";
 
 
