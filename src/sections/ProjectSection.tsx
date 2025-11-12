@@ -8,7 +8,7 @@ import project3 from "../assets/public/images/GIFTY.PNG";
 // Add your new projects images
 import project5 from "../assets/public/images/react_i.PNG";
 import project6 from "../assets/public/images/white.PNG";
-import project7 from '../assets/public/images/Gidi1.PNG'
+import project7 from '../assets/public/images/Decklo.PNG'
 
 import { BsArrowUpRight } from "react-icons/bs";
 
@@ -114,7 +114,7 @@ const ProjectSection = () => {
           <div className="first-project-wrapper rounded-[10px]">
             <a href="https://www.gidipitch.app/" className="max-sm:mt-8">
               <div className="image-wrapper relative">
-                <img src={project7} alt="Twit_Flash" />
+                <img src={project7} alt="Decklo" />
                 <a
       href="https://react-secure-inputs-guide.vercel.app/"
       target="_blank"
@@ -127,7 +127,7 @@ const ProjectSection = () => {
               </div>
               <div className="text-content max-sm:mt-4">
                 <h2 className="leading-14 max-sm:leading-10">
-                   GidiPitch – Helping founders craft decks that get investors’ attention.
+                  Declo – Helping founders craft decks that get investors’ attention.
                 </h2>
                 <p className="text-white-50 md:text-xl leading-8">
                   An app built with Reactjs, Typescript and
