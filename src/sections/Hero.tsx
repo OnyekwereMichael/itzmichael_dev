@@ -14,7 +14,7 @@ const Hero = () => {
     gsap.fromTo('.hero-text h1', { y: 50, opacity: 0 }, { y: 0, opacity: 1, stagger: 0.2, duration: 1, ease: 'power2.inout' });
   })
   return (
-    <section id='hero' className='relative overflow-hidden min-h-screen flex items-center justify-center flex-wrap '>
+    <section id='hero' className='relative overflow-hidden min-h-screen flex items-center justify-center flex-wrap max-sm:px-1'>
       {/* Enhanced Background */}
       <div className='absolute top-0 left-0 w-full h-full z-0'>
         <img src={bg} alt='Background' className='w-full h-full object-cover' />
